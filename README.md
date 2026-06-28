@@ -10,14 +10,17 @@
 
 ![Student](https://img.shields.io/badge/Student-B.Tech%20CSE-7C3AED?style=for-the-badge&logo=graduation-cap&logoColor=white)
 ![CGPA](https://img.shields.io/badge/CGPA-8.57%20%2F%2010-6D28D9?style=for-the-badge&logo=academia&logoColor=white)
-![SGPA](https://img.shields.io/badge/Last%20SGPA-9.26-5B21B6?style=for-the-badge&logo=star&logoColor=white)
+![SGPA](https://img.shields.io/badge/Last%20SGPA-9.27-5B21B6?style=for-the-badge&logo=star&logoColor=white)
 ![AI/ML Learner](https://img.shields.io/badge/AI%20%2F%20ML-Learner-8B5CF6?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Explorer-7C3AED?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 ![India](https://img.shields.io/badge/India-Warangal%2C%20Telangana-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white)
+<!-- Internship badge: update label or color here if status changes -->
+![Internships](https://img.shields.io/badge/Open%20To-Internships-22C55E?style=for-the-badge&logo=briefcase&logoColor=white)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aluvala-pranav-teja)
+<!-- LinkedIn: replace the Coming Soon URL below with your LinkedIn profile URL when ready -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aluvala-pranav-teja)
 [![Gmail](https://img.shields.io/badge/Gmail-pranavteja.aluvala@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranavteja.aluvala@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranav-Teja-Aluvala)
 
@@ -32,14 +35,14 @@
 
 ## About Me
 
-I'm a **Computer Science and Engineering undergraduate** at **Kakatiya Institute of Technology and Science (KITSW), Warangal**, currently in my first year of a four-year B.Tech program (2024–2028). I maintain a CGPA of **8.57** with a previous semester SGPA of **9.26**.
+I'm a **Computer Science and Engineering undergraduate** at **Kakatiya Institute of Technology and Science (KITS), Warangal**, currently entering my third year of a four-year B.Tech program (2024–2028). I maintain a CGPA of **8.57** with a previous semester SGPA of **9.27**.
 
 My core interests lie at the intersection of **Artificial Intelligence**, **Machine Learning**, and **Full Stack Web Development**. I believe in building things to learn — every project I take on teaches me something that a course alone cannot. I'm currently working on strengthening my foundations in ML and data science while simultaneously exploring modern web technologies like React and Tailwind CSS.
 
 I am **actively looking for internships** where I can apply my skills, contribute meaningfully, and grow alongside experienced engineers. I'm also keen on making my first steps into **open source**, starting with beginner-friendly repositories where I can learn collaboration workflows and real-world software practices.
 
 - 🎓 **Institution:** Kakatiya Institute of Technology and Science, Warangal
-- 📊 **CGPA:** 8.57 | **Last Semester SGPA:** 9.26
+- 📊 **CGPA:** 8.57 | **Last Semester SGPA:** 9.27
 - 🌱 **Currently Learning:** Machine Learning, React, Node.js
 - 🔍 **Looking For:** Internships · Open Source Contributions · Collaborative Projects
 - 📬 **Reach Me:** [pranavteja.aluvala@gmail.com](mailto:pranavteja.aluvala@gmail.com)
@@ -70,9 +73,9 @@ exploring:
   - Open source contribution workflows (GitHub Issues, PRs)
 
 preparing_for:
-  - Summer internship applications (2025–2026)
-  - Leetcode problem solving
-  - AI/ML certifications from DeepLearning.AI
+  - Internship opportunities (AI/ML · Web Dev · Full Stack)
+  - AI/ML Projects (hands-on model building & deployment)
+  - Open Source Contributions (good-first-issue repositories)
 
 open_to:
   - Internship opportunities (AI/ML · Web Dev · Full Stack)
@@ -193,27 +196,14 @@ open_to:
 |---|---|
 | **Repository** | [fake-news-detector](https://github.com/Pranav-Teja-Aluvala/fake-news-detector) |
 | **Tech Stack** | Python · Scikit-learn · TF-IDF · Streamlit |
-| **Status** | 📋 Planned |
+| **Status** | 🛠️ Currently Building |
 | **Description** | A binary classifier to identify misinformation using TF-IDF or transformer embeddings, exposed via an interactive web interface. |
 | **Future Improvements** | Upgrade to BERT embeddings · Add confidence scores · Build browser extension |
 
 </details>
 
-<details>
-<summary><b>🌐 Personal Portfolio Website</b> — React · Tailwind CSS · JavaScript</summary>
 
-<br/>
-
-| Field | Details |
-|---|---|
-| **Repository** | [portfolio](https://github.com/Pranav-Teja-Aluvala/portfolio) |
-| **Tech Stack** | React · Tailwind CSS · JavaScript |
-| **Status** | 📋 Planned |
-| **Description** | A responsive, accessible portfolio showcasing projects, skills, and contact information, with smooth animations and dark-mode support. |
-| **Future Improvements** | Add blog section · Connect to GitHub API · Deploy on Vercel |
-
-</details>
-
+<!--
 <details>
 <summary><b>➕ Add Your Next Project Here</b></summary>
 
@@ -228,7 +218,7 @@ open_to:
 | **Future Improvements** | What you plan to add next |
 
 </details>
-
+-->
 ---
 
 ## Certifications
@@ -249,11 +239,18 @@ open_to:
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranav-Teja-Aluvala)
-[![LeetCode](https://img.shields.io/badge/LeetCode-YOUR__USERNAME-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/Pranav-Teja-Aluvala)
-[![HackerRank](https://img.shields.io/badge/HackerRank-YOUR__USERNAME-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/Pranav-Teja-Aluvala)
-[![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-YOUR__USERNAME-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/Pranav-Teja-Aluvala)
-[![CodeChef](https://img.shields.io/badge/CodeChef-YOUR__USERNAME-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/Pranav-Teja-Aluvala)
+<!-- Coding Profiles: update each URL below when you create an account on that platform -->
+
+<!-- GitHub: already linked to your profile -->
+[![GitHub](https://img.shields.io/badge/GitHub-Pranav--Teja--Aluvala-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranav-Teja-Aluvala)
+
+<!-- LeetCode: linked to your actual account -->
+[![LeetCode](https://img.shields.io/badge/LeetCode-A--pranavTeja-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/A-pranavTeja/)
+
+<!-- HackerRank: linked to your actual account -->
+[![HackerRank](https://img.shields.io/badge/HackerRank-A--pranavTeja-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/A-pranavTeja)
+
+
 
 </div>
 
@@ -280,9 +277,8 @@ open_to:
 
 <div align="center">
 
+<!-- Snake animation: generated by GitHub Actions workflow (Platane/snk). Run the workflow once to generate the SVG. -->
 ![Snake animation](https://github.com/Pranav-Teja-Aluvala/Pranav-Teja-Aluvala/blob/output/github-contribution-grid-snake-dark.svg)
-
-> To enable the snake animation, set up [this GitHub Action](https://github.com/Platane/snk) in your profile repository.
 
 </div>
 
@@ -292,7 +288,7 @@ open_to:
 
 <div align="center">
 
-GitHub Achievements are earned automatically as you push code, merge pull requests, and engage with the community. They will appear here as your profile grows.
+GitHub achievements will appear automatically as I continue contributing to repositories and open-source projects.
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Pranav-Teja-Aluvala&theme=darkhub&no-frame=true&column=6&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -318,9 +314,13 @@ If you maintain a beginner-friendly project and are open to first-time contribut
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aluvala%20Pranav%20Teja-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aluvala-pranav-teja)
+<!-- LinkedIn: replace the badge below with a clickable badge once your profile is ready -->
+<!-- Example: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aluvala%20Pranav%20Teja-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_URL) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aluvala-pranav-teja)
+<!-- Gmail: keep as-is -->
 [![Email](https://img.shields.io/badge/Email-pranavteja.aluvala@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranavteja.aluvala@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranav-Teja-Aluvala)
+<!-- GitHub: keep as-is -->
+[![GitHub](https://img.shields.io/badge/GitHub-Pranav--Teja--Aluvala-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pranav-Teja-Aluvala)
 
 </div>
 
