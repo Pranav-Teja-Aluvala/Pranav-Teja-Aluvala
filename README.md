@@ -292,7 +292,9 @@ If you maintain a beginner-friendly project and are open to first-time contribut
 
 <div align="center">
 
-*"The expert in anything was once a beginner."*
+*99 little bugs in the code...
+Take one down, patch it around...
+127 little bugs in the code.*
 
 <br/>
 
