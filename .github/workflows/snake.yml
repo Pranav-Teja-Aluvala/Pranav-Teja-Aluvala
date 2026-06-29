@@ -17,11 +17,9 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: Pranav-Teja-Aluvala
-
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23B8924D&color_dots=%23FAF8F3,%23E8DDC6,%23D8C29D,%23B8924D,%239E9279
-
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23B8924D&color_dots=%231F1F1F,%23322B22,%235C4A2C,%239E9279,%23B8924D
+            dist/github-contribution-grid-snake.svg?color_snake=%23B8924D&color_dots=%23FAF8F3,%23E8DDC6,%23D8C29D,%239E9279,%23B8924D
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23B8924D&color_dots=%231F1F1F,%23352F24,%235F523C,%239E9279,%23B8924D
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
