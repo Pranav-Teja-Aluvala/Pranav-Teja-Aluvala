@@ -301,3 +301,4 @@ Take one down, patch it around...
 <img src="https://capsule-render.vercel.app/api?type=waving&color=2C1F0E&height=100&section=footer" width="100%"/>
 
 </div>
+
