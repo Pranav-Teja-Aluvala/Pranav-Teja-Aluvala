@@ -195,7 +195,7 @@ open_to:
 | Python (Basic) | HackerRank | ✅ Completed |
 | Java (Basic) | HackerRank | ✅ Completed |
 
----
+
 
 ## Virtual Experience Programs
 
