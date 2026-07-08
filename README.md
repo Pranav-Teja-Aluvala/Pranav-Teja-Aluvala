@@ -238,9 +238,7 @@ open_to:
 
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Pranav-Teja-Aluvala&show_icons=true&theme=gruvbox&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
-
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Pranav-Teja-Aluvala&layout=compact&theme=gruvbox&hide_border=true&langs_count=8" height="165"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pranav-Teja-Aluvala&theme=github_dark" width="100%" />
 
 <br/>
 
