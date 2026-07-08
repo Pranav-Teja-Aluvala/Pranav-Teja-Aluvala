@@ -98,7 +98,6 @@ open_to:
 [![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![React](https://skillicons.dev/icons?i=react)](https://react.dev/)
-[![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
 
 ### Backend (Learning)
 [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org/)
@@ -189,13 +188,28 @@ open_to:
 
 | Certificate | Issuer | Status |
 |---|---|---|
-| Machine Learning: Supervised Learning | DeepLearning.AI | ✅ Completed |
+| Machine Learning Specialization | DeepLearning.AI + Stanford University | ✅ Completed |
+| Supervised Machine Learning: Regression and Classification | DeepLearning.AI + Stanford University | ✅ Completed |
+| Advanced Learning Algorithms | DeepLearning.AI + Stanford University | ✅ Completed |
+| Unsupervised Learning, Recommenders, Reinforcement Learning | DeepLearning.AI + Stanford University | ✅ Completed |
 | Python (Basic) | HackerRank | ✅ Completed |
 | Java (Basic) | HackerRank | ✅ Completed |
-| Forage Virtual Experience | Forage | 🔜 Planned |
-| Machine Learning Specialization | DeepLearning.AI | 🔜 Planned |
-| Deep Learning Specialization | DeepLearning.AI | 🔜 Planned |
-| TensorFlow Developer Certificate | Google | 🔜 Future |
+
+---
+
+## Virtual Experience Programs
+
+| Program | Organization | Status |
+|---|---|---|
+| Generative AI Job Simulation | BCG X | ✅ Completed |
+| Cybersecurity Job Simulation | Mastercard | ✅ Completed |
+
+---
+
+## Currently Pursuing
+
+- IBM Data Analyst Professional Certificate
+- NVIDIA AI Infrastructure & Operations Fundamentals
 
 ---
 
