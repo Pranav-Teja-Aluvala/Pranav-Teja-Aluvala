@@ -238,10 +238,6 @@ open_to:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pranav-Teja-Aluvala&theme=github_dark" width="100%" />
-
-<br/></br>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pranav-Teja-Aluvala&theme=gruvbox&hide_border=true" width="49%"/>
 
 <br/><br/>
