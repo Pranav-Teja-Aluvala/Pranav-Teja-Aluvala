@@ -4,12 +4,12 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/aluvala-pranav-teja"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-5eead4?style=flat-square&amp;labelColor=10172b&amp;color=5eead4" alt="LinkedIn"></a>
-  <a href="mailto:pranavteja.aluvala@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-a78bfa?style=flat-square&amp;labelColor=10172b&amp;color=a78bfa" alt="Email"></a>
-  <a href="https://leetcode.com/u/A-pranavTeja/"><img src="https://img.shields.io/badge/LeetCode-A--pranavTeja-fbbf24?style=flat-square&amp;labelColor=10172b&amp;color=fbbf24" alt="LeetCode"></a>
+  <a href="https://www.linkedin.com/in/aluvala-pranav-teja"><img src="assets/linkedin.svg" width="180" alt="Connect on LinkedIn"></a>
+  &nbsp;
+  <a href="mailto:pranavteja.aluvala@gmail.com"><img src="assets/email.svg" width="180" alt="Send me an email"></a>
+  &nbsp;
+  <a href="https://leetcode.com/u/A-pranavTeja/"><img src="assets/leetcode.svg" width="180" alt="My LeetCode profile"></a>
 </p>
-
-### A little about me
 
 I'm a **third-year CSE student at KITSW, Warangal**, exploring machine learning, data analysis, and software development. I like understanding how things work—and learning how to build them better.
 
@@ -17,23 +17,13 @@ I'm a **third-year CSE student at KITSW, Warangal**, exploring machine learning,
 
 Currently strengthening my ML fundamentals and looking for **internships and people to learn with**.
 
-### My toolkit
+### Toolkit
 
-Technologies I'm working with and continuing to learn.
+Technologies I’m working with and continuing to learn.
 
-| | |
-| :--- | :--- |
-| **Programming** | <img src="https://skillicons.dev/icons?i=python,java,c&amp;theme=dark" height="38" alt="Python, Java, C"><br>Python · Java · C |
-| **Web technologies** | <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs&amp;theme=dark" height="38" alt="HTML, CSS, JavaScript, React, Node.js"><br>HTML · CSS · JavaScript · React · Node.js |
-| **Databases** | <img src="https://skillicons.dev/icons?i=mongodb&amp;theme=dark" height="38" alt="MongoDB"><br>MongoDB · SQL |
-| **ML libraries** | <img src="https://skillicons.dev/icons?i=sklearn,pytorch,tensorflow&amp;theme=dark" height="38" alt="scikit-learn, PyTorch, TensorFlow"><br>scikit-learn · PyTorch · TensorFlow |
-| **Data analysis** | NumPy · pandas · Matplotlib · Seaborn |
+<img src="assets/toolkit.svg" width="100%" alt="Programming: Python, Java, C. Web: HTML, CSS, JavaScript, React, Node.js. Databases: MongoDB, SQL. ML: scikit-learn, PyTorch, TensorFlow. Data: NumPy, pandas, Matplotlib, Seaborn.">
 
-### The learning collection
-
-[![Browse my certificate collection: machine learning, AI foundations, programming and hackathons](assets/certificates.svg)](certs.md)
-
-**[Explore my certificates →](certs.md)** · [Interactive gallery HTML](certs.html)
+[![Open my certificate gallery](assets/certificates.svg)](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)
 
 <details>
 <summary><b>A little work behind the learning ↗</b></summary>

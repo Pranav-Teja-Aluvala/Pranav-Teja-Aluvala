@@ -1,239 +1,86 @@
-# Learning collection
+# Certificates
 
-[Back to my profile](README.md) · [HTML gallery source](https://raw.githubusercontent.com/Pranav-Teja-Aluvala/Pranav-Teja-Aluvala/main/certs.html)
-
-Selected credentials from my learning journey. Simulations, participation certificates and completed programs are labeled separately.
+[Open the interactive gallery ↗](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html) · [Back to profile](README.md)
 
 ## AI & ML
 
-<details>
-<summary><b>Machine Learning Specialization</b> — DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</summary>
-
-Specialization.
-
-[Verify credential](https://coursera.org/verify/specialization/J0QBT7MW77LF)
-
-![Machine Learning Specialization](assets/certificates/machine-learning-specialization.jpg)
-
-</details>
-
-<details>
-<summary><b>Agentic AI Certified Foundations Associate</b> — Oracle · Aug 2026</summary>
-
-Foundations certification.
-
-![Agentic AI Certified Foundations Associate](assets/certificates/agentic-ai-certified-foundations-associate.jpg)
-
-</details>
-
-<details>
-<summary><b>Career Essentials in Generative AI</b> — Microsoft &amp; LinkedIn · Jul 2026</summary>
-
-Learning path.
-
-![Career Essentials in Generative AI](assets/certificates/career-essentials-in-generative-ai.jpg)
-
-</details>
-
-<details>
-<summary><b>Advanced Learning Algorithms</b> — DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</summary>
-
-Course completion.
-
-[Verify credential](https://coursera.org/verify/73AH4M9E4IMX)
-
-![Advanced Learning Algorithms](assets/certificates/advanced-learning-algorithms.jpg)
-
-</details>
-
-<details>
-<summary><b>Unsupervised Learning, Recommenders, Reinforcement Learning</b> — DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</summary>
-
-Course completion.
-
-[Verify credential](https://coursera.org/verify/NCM8D0WYLB88)
-
-![Unsupervised Learning, Recommenders, Reinforcement Learning](assets/certificates/unsupervised-learning-recommenders-reinforcement-learning.jpg)
-
-</details>
-
-<details>
-<summary><b>Introduction to Machine Learning: Art of the Possible</b> — AWS Training &amp; Certification · Jul 2026</summary>
-
-Course completion.
-
-![Introduction to Machine Learning: Art of the Possible](assets/certificates/introduction-to-machine-learning-art-of-the-possible.jpg)
-
-</details>
-
-<details>
-<summary><b>AI – Data Engineering Analyst</b> — NASSCOM · Skill India Digital Hub · Jul 2026</summary>
-
-Course participation.
-
-![AI – Data Engineering Analyst](assets/certificates/ai-data-engineering-analyst.jpg)
-
-</details>
-
-<details>
-<summary><b>Ethics in the Age of Generative AI</b> — LinkedIn Learning · Jul 2026</summary>
-
-Course completion.
-
-![Ethics in the Age of Generative AI](assets/certificates/ethics-in-the-age-of-generative-ai.jpg)
-
-</details>
-
-<details>
-<summary><b>Everyday AI Concepts</b> — LinkedIn Learning · Jul 2026</summary>
-
-Course completion.
-
-![Everyday AI Concepts](assets/certificates/everyday-ai-concepts.jpg)
-
-</details>
-
-<details>
-<summary><b>What Is Generative AI?</b> — LinkedIn Learning · Jul 2026</summary>
-
-Course completion.
-
-![What Is Generative AI?](assets/certificates/what-is-generative-ai.jpg)
-
-</details>
-
-<details>
-<summary><b>Your Top AI Questions Answered: AI Literacy for Everyone</b> — LinkedIn Learning · Jul 2026</summary>
-
-Course completion.
-
-![Your Top AI Questions Answered: AI Literacy for Everyone](assets/certificates/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg)
-
-</details>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/machine-learning-specialization.jpg"><img src="assets/certificate-previews/machine-learning-specialization.jpg" width="420" alt="Machine Learning Specialization"></a><br><b>Machine Learning Specialization</b><br><sub>DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/agentic-ai-certified-foundations-associate.jpg"><img src="assets/certificate-previews/agentic-ai-certified-foundations-associate.jpg" width="420" alt="Agentic AI Certified Foundations Associate"></a><br><b>Agentic AI Certified Foundations Associate</b><br><sub>Oracle · Aug 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/career-essentials-in-generative-ai.jpg"><img src="assets/certificate-previews/career-essentials-in-generative-ai.jpg" width="420" alt="Career Essentials in Generative AI"></a><br><b>Career Essentials in Generative AI</b><br><sub>Microsoft &amp; LinkedIn · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/advanced-learning-algorithms.jpg"><img src="assets/certificate-previews/advanced-learning-algorithms.jpg" width="420" alt="Advanced Learning Algorithms"></a><br><b>Advanced Learning Algorithms</b><br><sub>DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/unsupervised-learning-recommenders-reinforcement-learning.jpg"><img src="assets/certificate-previews/unsupervised-learning-recommenders-reinforcement-learning.jpg" width="420" alt="Unsupervised Learning, Recommenders, Reinforcement Learning"></a><br><b>Unsupervised Learning, Recommenders, Reinforcement Learning</b><br><sub>DeepLearning.AI &amp; Stanford Online · Coursera · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/introduction-to-machine-learning-art-of-the-possible.jpg"><img src="assets/certificate-previews/introduction-to-machine-learning-art-of-the-possible.jpg" width="420" alt="Introduction to Machine Learning: Art of the Possible"></a><br><b>Introduction to Machine Learning: Art of the Possible</b><br><sub>AWS Training &amp; Certification · Jul 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/ai-data-engineering-analyst.jpg"><img src="assets/certificate-previews/ai-data-engineering-analyst.jpg" width="420" alt="AI – Data Engineering Analyst"></a><br><b>AI – Data Engineering Analyst</b><br><sub>NASSCOM · Skill India Digital Hub · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/ethics-in-the-age-of-generative-ai.jpg"><img src="assets/certificate-previews/ethics-in-the-age-of-generative-ai.jpg" width="420" alt="Ethics in the Age of Generative AI"></a><br><b>Ethics in the Age of Generative AI</b><br><sub>LinkedIn Learning · Jul 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/everyday-ai-concepts.jpg"><img src="assets/certificate-previews/everyday-ai-concepts.jpg" width="420" alt="Everyday AI Concepts"></a><br><b>Everyday AI Concepts</b><br><sub>LinkedIn Learning · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/what-is-generative-ai.jpg"><img src="assets/certificate-previews/what-is-generative-ai.jpg" width="420" alt="What Is Generative AI?"></a><br><b>What Is Generative AI?</b><br><sub>LinkedIn Learning · Jul 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg"><img src="assets/certificate-previews/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg" width="420" alt="Your Top AI Questions Answered: AI Literacy for Everyone"></a><br><b>Your Top AI Questions Answered: AI Literacy for Everyone</b><br><sub>LinkedIn Learning · Jul 2026</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ## Programming
 
-<details>
-<summary><b>Python (Basic)</b> — HackerRank · Feb 2026</summary>
-
-Skills assessment.
-
-![Python (Basic)](assets/certificates/python-basic.jpg)
-
-</details>
-
-<details>
-<summary><b>Java (Basic)</b> — HackerRank · Mar 2026</summary>
-
-Skills assessment.
-
-![Java (Basic)](assets/certificates/java-basic.jpg)
-
-</details>
-
-<details>
-<summary><b>SQL (Basic)</b> — HackerRank · Jun 2026</summary>
-
-Skills assessment.
-
-![SQL (Basic)](assets/certificates/sql-basic.jpg)
-
-</details>
-
-<details>
-<summary><b>CSS (Basic)</b> — HackerRank · Jun 2026</summary>
-
-Skills assessment.
-
-![CSS (Basic)](assets/certificates/css-basic.jpg)
-
-</details>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/python-basic.jpg"><img src="assets/certificate-previews/python-basic.jpg" width="420" alt="Python (Basic)"></a><br><b>Python (Basic)</b><br><sub>HackerRank · Feb 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/java-basic.jpg"><img src="assets/certificate-previews/java-basic.jpg" width="420" alt="Java (Basic)"></a><br><b>Java (Basic)</b><br><sub>HackerRank · Mar 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/sql-basic.jpg"><img src="assets/certificate-previews/sql-basic.jpg" width="420" alt="SQL (Basic)"></a><br><b>SQL (Basic)</b><br><sub>HackerRank · Jun 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/css-basic.jpg"><img src="assets/certificate-previews/css-basic.jpg" width="420" alt="CSS (Basic)"></a><br><b>CSS (Basic)</b><br><sub>HackerRank · Jun 2026</sub></td>
+</tr>
+</table>
 
 ## Simulations
 
-<details>
-<summary><b>GenAI Powered Data Analytics</b> — Tata · Forage · Jul 2026</summary>
-
-Job simulation.
-
-![GenAI Powered Data Analytics](assets/certificates/genai-powered-data-analytics.jpg)
-
-</details>
-
-<details>
-<summary><b>Data Analytics</b> — Deloitte Australia · Forage · Aug 2026</summary>
-
-Job simulation.
-
-![Data Analytics](assets/certificates/data-analytics.jpg)
-
-</details>
-
-<details>
-<summary><b>GenAI</b> — BCG X · Forage · Jun 2026</summary>
-
-Job simulation.
-
-![GenAI](assets/certificates/genai.jpg)
-
-</details>
-
-<details>
-<summary><b>Partnering with AI in the Workplace</b> — Datacom · Forage · Jun 2026</summary>
-
-Job simulation.
-
-![Partnering with AI in the Workplace](assets/certificates/partnering-with-ai-in-the-workplace.jpg)
-
-</details>
-
-<details>
-<summary><b>Cybersecurity</b> — Mastercard · Forage · Jun 2026</summary>
-
-Job simulation.
-
-![Cybersecurity](assets/certificates/cybersecurity.jpg)
-
-</details>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/genai-powered-data-analytics.jpg"><img src="assets/certificate-previews/genai-powered-data-analytics.jpg" width="420" alt="GenAI Powered Data Analytics"></a><br><b>GenAI Powered Data Analytics</b><br><sub>Tata · Forage · Jul 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/data-analytics.jpg"><img src="assets/certificate-previews/data-analytics.jpg" width="420" alt="Data Analytics"></a><br><b>Data Analytics</b><br><sub>Deloitte Australia · Forage · Aug 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/genai.jpg"><img src="assets/certificate-previews/genai.jpg" width="420" alt="GenAI"></a><br><b>GenAI</b><br><sub>BCG X · Forage · Jun 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/partnering-with-ai-in-the-workplace.jpg"><img src="assets/certificate-previews/partnering-with-ai-in-the-workplace.jpg" width="420" alt="Partnering with AI in the Workplace"></a><br><b>Partnering with AI in the Workplace</b><br><sub>Datacom · Forage · Jun 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/cybersecurity.jpg"><img src="assets/certificate-previews/cybersecurity.jpg" width="420" alt="Cybersecurity"></a><br><b>Cybersecurity</b><br><sub>Mastercard · Forage · Jun 2026</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ## Programs
 
-<details>
-<summary><b>Virtual Data Science with Python Apprentice Intern</b> — YuvaIntern · Aug 2026</summary>
-
-Virtual internship completion.
-
-![Virtual Data Science with Python Apprentice Intern](assets/certificates/virtual-data-science-with-python-apprentice-intern.jpg)
-
-</details>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/virtual-data-science-with-python-apprentice-intern.jpg"><img src="assets/certificate-previews/virtual-data-science-with-python-apprentice-intern.jpg" width="420" alt="Virtual Data Science with Python Apprentice Intern"></a><br><b>Virtual Data Science with Python Apprentice Intern</b><br><sub>YuvaIntern · Aug 2026</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ## Participation
 
-<details>
-<summary><b>Data Analytics Hackathon</b> — Gradient Learnings · Oct 2026</summary>
-
-Hackathon participation.
-
-![Data Analytics Hackathon](assets/certificates/data-analytics-hackathon.jpg)
-
-</details>
-
-<details>
-<summary><b>Adobe University Hackathon</b> — Adobe · Unstop · 2026</summary>
-
-Hackathon participation.
-
-![Adobe University Hackathon](assets/certificates/adobe-university-hackathon.jpg)
-
-</details>
-
-<details>
-<summary><b>Geeks2Code Hackathon</b> — GFG Campus Body · MIET, Meerut · Date not listed</summary>
-
-Hackathon participation.
-
-![Geeks2Code Hackathon](assets/certificates/geeks2code-hackathon.jpg)
-
-</details>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/data-analytics-hackathon.jpg"><img src="assets/certificate-previews/data-analytics-hackathon.jpg" width="420" alt="Data Analytics Hackathon"></a><br><b>Data Analytics Hackathon</b><br><sub>Gradient Learnings · Oct 2026</sub></td>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/adobe-university-hackathon.jpg"><img src="assets/certificate-previews/adobe-university-hackathon.jpg" width="420" alt="Adobe University Hackathon"></a><br><b>Adobe University Hackathon</b><br><sub>Adobe · Unstop · 2026</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="assets/certificates/geeks2code-hackathon.jpg"><img src="assets/certificate-previews/geeks2code-hackathon.jpg" width="420" alt="Geeks2Code Hackathon"></a><br><b>Geeks2Code Hackathon</b><br><sub>GFG Campus Body · MIET, Meerut · Date not listed</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
 
 
