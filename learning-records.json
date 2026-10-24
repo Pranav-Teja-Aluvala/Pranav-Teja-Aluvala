@@ -1,0 +1,358 @@
+{
+  "ml": {
+    "title": "Machine Learning Specialization",
+    "issuer": "DeepLearning.AI & Stanford Online · Coursera",
+    "category": "AI & ML",
+    "date": "04 Jul 2026",
+    "image": "assets/certificates/machine-learning-specialization.jpg",
+    "url": "https://coursera.org/verify/specialization/J0QBT7MW77LF",
+    "kind": "Specialization",
+    "courses": [
+      {
+        "title": "Supervised Machine Learning: Regression and Classification",
+        "date": "04 Jul 2026",
+        "note": "Included in the specialization certificate",
+        "image": "assets/certificates/machine-learning-specialization.jpg",
+        "url": "https://coursera.org/verify/specialization/J0QBT7MW77LF"
+      },
+      {
+        "title": "Advanced Learning Algorithms",
+        "issuer": "DeepLearning.AI & Stanford Online · Coursera",
+        "category": "AI & ML",
+        "date": "Jul 2026",
+        "image": "assets/certificates/advanced-learning-algorithms.jpg",
+        "url": "https://coursera.org/verify/73AH4M9E4IMX",
+        "kind": "Course completion"
+      },
+      {
+        "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        "issuer": "DeepLearning.AI & Stanford Online · Coursera",
+        "category": "AI & ML",
+        "date": "Jul 2026",
+        "image": "assets/certificates/unsupervised-learning-recommenders-reinforcement-learning.jpg",
+        "url": "https://coursera.org/verify/NCM8D0WYLB88",
+        "kind": "Course completion"
+      }
+    ]
+  },
+  "microsoft": {
+    "title": "Career Essentials in Generative AI",
+    "issuer": "Microsoft & LinkedIn",
+    "category": "AI & ML",
+    "date": "12 Jul 2026",
+    "image": "assets/certificates/career-essentials-in-generative-ai.jpg",
+    "url": null,
+    "kind": "Learning path",
+    "courses": [
+      {
+        "title": "What Is Generative AI?",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/what-is-generative-ai.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Your Top AI Questions Answered: AI Literacy for Everyone",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Ethics in the Age of Generative AI",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/ethics-in-the-age-of-generative-ai.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Everyday AI Concepts",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/everyday-ai-concepts.jpg",
+        "url": null,
+        "kind": "Course completion"
+      }
+    ]
+  },
+  "hackerrank": [
+    {
+      "title": "Python (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "18 Feb 2026",
+      "image": "assets/certificates/python-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "Java (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "09 Mar 2026",
+      "image": "assets/certificates/java-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "26 Jun 2026",
+      "image": "assets/certificates/sql-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "CSS (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "26 Jun 2026",
+      "image": "assets/certificates/css-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    }
+  ],
+  "participation": [
+    {
+      "title": "Data Analytics Hackathon",
+      "issuer": "Gradient Learnings",
+      "category": "Participation",
+      "date": "02 Oct 2026",
+      "image": "assets/certificates/data-analytics-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Worked on the VoltRelay battery-swapping network challenge.",
+        "Used Python for data preparation, exploratory analysis and visual reporting across network, station, battery and support data."
+      ],
+      "project": "https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026"
+    },
+    {
+      "title": "Adobe University Hackathon",
+      "issuer": "Adobe · Unstop",
+      "category": "Participation",
+      "date": "2026 · date not on certificate",
+      "image": "assets/certificates/adobe-university-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Participated in the Adobe University Hackathon.",
+        "The supplied certificate records participation; no placement is claimed."
+      ]
+    },
+    {
+      "title": "Geeks2Code Hackathon",
+      "issuer": "GFG Campus Body · MIET, Meerut",
+      "category": "Participation",
+      "date": "Date not listed",
+      "image": "assets/certificates/geeks2code-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Participated in the Geeks2Code Hackathon organized by the GFG Campus Body at MIET, Meerut."
+      ]
+    }
+  ],
+  "forage": [
+    {
+      "title": "Cybersecurity",
+      "issuer": "Mastercard · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/cybersecurity.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Designed a phishing-email simulation.",
+        "Interpreted phishing-simulation results."
+      ]
+    },
+    {
+      "title": "Partnering with AI in the Workplace",
+      "issuer": "Datacom · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/partnering-with-ai-in-the-workplace.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Practiced effective prompting and AI-assisted research and design.",
+        "Worked through an AI-assisted debugging exercise."
+      ]
+    },
+    {
+      "title": "GenAI",
+      "issuer": "BCG X · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/genai.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Completed data-extraction and initial-analysis tasks.",
+        "Worked through an AI-powered financial-chatbot exercise."
+      ]
+    },
+    {
+      "title": "GenAI Powered Data Analytics",
+      "issuer": "Tata · Forage",
+      "category": "Simulations",
+      "date": "18 Jul 2026",
+      "image": "assets/certificates/genai-powered-data-analytics.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Explored data quality and risk profiling.",
+        "Planned AI-assisted delinquency analysis and communicated collection-strategy insights."
+      ]
+    },
+    {
+      "title": "Data Analytics",
+      "issuer": "Deloitte Australia · Forage",
+      "category": "Simulations",
+      "date": "01 Aug 2026",
+      "image": "assets/certificates/data-analytics.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Completed data-analysis and forensic-technology exercises."
+      ]
+    }
+  ],
+  "yuva": [
+    {
+      "title": "R Data Analyst",
+      "period": "23 Jul — 20 Aug 2026",
+      "date": "20 Aug 2026",
+      "duration": "4 weeks · Remote",
+      "docs": [
+        {
+          "title": "R Data Analyst — Offer letter",
+          "issuer": "YuvaIntern",
+          "date": "23 Jul–20 Aug 2026",
+          "image": "assets/certificates/yuva-r-offer.jpg",
+          "kind": "Offer letter",
+          "url": null
+        },
+        {
+          "title": "Virtual R Data Analyst Intern",
+          "issuer": "YuvaIntern",
+          "date": "20 Aug 2026",
+          "image": "assets/certificates/yuva-r-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Reports document Titanic data cleaning and visualization with R.",
+        "Iris exercises cover statistical testing, decision-tree classification, cross-validation and final reporting."
+      ]
+    },
+    {
+      "title": "Data Science Explorer",
+      "period": "Completed 20 Aug 2026",
+      "date": "20 Aug 2026",
+      "duration": "Virtual program",
+      "docs": [
+        {
+          "title": "Virtual Data Science Explorer Intern",
+          "issuer": "YuvaIntern",
+          "date": "20 Aug 2026",
+          "image": "assets/certificates/yuva-explorer-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Completed the Virtual Data Science Explorer Intern program.",
+        "The completion record does not detail specific tasks."
+      ]
+    },
+    {
+      "title": "Data Science with Python",
+      "period": "23 Jul — 27 Aug 2026",
+      "date": "27 Aug 2026",
+      "duration": "5 weeks · Remote",
+      "docs": [
+        {
+          "title": "Python Data Science — Offer letter",
+          "issuer": "YuvaIntern",
+          "date": "23 Jul–27 Aug 2026",
+          "image": "assets/certificates/yuva-python-offer.jpg",
+          "kind": "Offer letter",
+          "url": null
+        },
+        {
+          "title": "Virtual Data Science with Python Apprentice Intern",
+          "issuer": "YuvaIntern",
+          "category": "Programs",
+          "date": "27 Aug 2026",
+          "image": "assets/certificates/virtual-data-science-with-python-apprentice-intern.jpg",
+          "url": null,
+          "kind": "Completion certificate"
+        }
+      ],
+      "bullets": [
+        "Program materials cover Python data acquisition, cleaning, EDA and statistical analysis.",
+        "Weekly reports include model-development and evaluation exercises. Hypothetical and synthetic-data work is treated as coursework."
+      ]
+    },
+    {
+      "title": "Content Writing",
+      "period": "Completed 03 Sep 2026",
+      "date": "03 Sep 2026",
+      "duration": "Virtual program",
+      "docs": [
+        {
+          "title": "Content Writer Internship",
+          "issuer": "YuvaIntern",
+          "date": "03 Sep 2026",
+          "image": "assets/certificates/yuva-content-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Completed the Content Writer Internship program.",
+        "The completion letter was issued on 3 September 2026."
+      ]
+    }
+  ],
+  "additional": [
+    {
+      "title": "AI – Data Engineering Analyst",
+      "issuer": "NASSCOM · Skill India Digital Hub",
+      "category": "AI & ML",
+      "date": "14 Jul 2026",
+      "image": "assets/certificates/ai-data-engineering-analyst.jpg",
+      "url": null,
+      "kind": "Course participation"
+    },
+    {
+      "title": "Introduction to Machine Learning: Art of the Possible",
+      "issuer": "AWS Training & Certification",
+      "category": "AI & ML",
+      "date": "31 Jul 2026",
+      "image": "assets/certificates/introduction-to-machine-learning-art-of-the-possible.jpg",
+      "url": null,
+      "kind": "Course completion"
+    },
+    {
+      "title": "Agentic AI Certified Foundations Associate",
+      "issuer": "Oracle",
+      "category": "AI & ML",
+      "date": "09 Aug 2026",
+      "image": "assets/certificates/agentic-ai-certified-foundations-associate.jpg",
+      "url": null,
+      "kind": "Foundations certification"
+    }
+  ]
+}

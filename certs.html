@@ -1,267 +1,420 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Learning collection — Pranav Teja Aluvala</title>
-<meta name="description" content="Pranav Teja Aluvala's learning collection: machine learning, AI, programming, simulations and hackathon participation.">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Certificates & learning — Pranav Teja Aluvala</title><meta name="description" content="An organized record of Pranav Teja Aluvala's courses, assessments, hackathons, simulations and virtual internship programs.">
 <style>
-.search-row{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0 0 22px}.search-wrap{display:flex;align-items:center;border-bottom:1px solid var(--line);gap:12px;max-width:390px;width:100%;padding:9px 0}.search-wrap label{color:var(--muted);font-size:14px}.search-wrap input{background:none;border:0;color:var(--text);font:inherit;font-size:14px;min-width:0;width:100%;outline:none}.search-wrap:focus-within{border-color:var(--cyan)}.search-wrap input:focus-visible{outline:0}.search-wrap kbd{border:1px solid var(--line);padding:0 7px;border-radius:4px;color:var(--muted);font-size:12px}.search-row .count{margin:0}.certificate-thumb{padding:0;border:1px solid #52617c;border-radius:5px;background:white;flex:0 0 100px;overflow:hidden;cursor:zoom-in}.certificate-thumb img{display:block;width:100px;height:72px;object-fit:contain}.dialog-actions{display:flex;gap:8px;align-items:center}.dialog-tool{border:1px solid #435378;border-radius:6px;background:#142039;color:white;padding:6px 12px;cursor:pointer;font-size:13px}.dialog-scroll{max-height:70vh;overflow:auto;background:#090f1c}.dialog-scroll img{transition:width .15s}.dialog-scroll.zoomed img{width:160%;max-width:none}.empty{color:var(--muted);padding:40px 0;grid-column:1/-1}.certificate:focus-within{border-color:var(--cyan)}
-@media(max-width:650px){.search-row{align-items:stretch;flex-direction:column;gap:10px}.certificate-thumb{flex-basis:75px}.certificate-thumb img{width:75px;height:62px}.dialog-actions{gap:5px}.dialog-tool{padding:5px 7px;font-size:11px}.dialog-head{align-items:flex-start!important}.dialog-head h2{max-width:180px}.dialog-scroll{max-height:65vh}}
-
-:root{color-scheme:dark;--bg:#0b1020;--text:#f3f6ff;--muted:#aebcda;--line:#303e60;--cyan:#5eead4;--violet:#a78bfa}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 95% 0,#151d3d 0,transparent 40%),var(--bg);color:var(--text);font:16px/1.6 Inter,"Segoe UI",Arial,sans-serif}a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}button,a{touch-action:manipulation}button{font:inherit}button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:5px}.wrap{width:min(1360px,calc(100% - 112px));margin:auto}nav{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;gap:18px;align-items:center;color:var(--muted);font-size:19px}.monogram{width:42px;height:42px;border:1px solid var(--cyan);border-radius:8px;display:grid;place-items:center;color:var(--cyan);font-weight:750;font-size:22px}nav>a{color:var(--text)}.hero{position:relative;padding:66px 0 54px;overflow:hidden}.kicker{font-size:11px;letter-spacing:4px;color:var(--muted);margin:0 0 18px;text-transform:uppercase}.intro{display:flex;align-items:center;gap:35px;position:relative;z-index:1}h1{font-size:clamp(44px,5.25vw,79px);letter-spacing:-3.5px;line-height:1.06;margin:0;font-weight:780;max-width:650px}h1 span{background:linear-gradient(100deg,var(--cyan),#7bc8fa 50%,var(--violet));background-clip:text;color:transparent}.sub{border-left:1px solid var(--line);padding-left:35px;max-width:310px;color:var(--muted);font-size:22px;line-height:1.5;margin:30px 0 0}.orbit{position:absolute;right:-60px;top:0;width:460px;height:320px;opacity:.65;pointer-events:none}.orbital{transform-origin:250px 160px;animation:orbit 38s linear infinite}.orbital.reverse{animation-direction:reverse;animation-duration:49s}@keyframes orbit{to{transform:rotate(360deg)}}.filters{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 12px}.filter{color:#dae4ff;background:transparent;border:1px solid #435378;border-radius:99px;min-height:44px;padding:8px 24px;cursor:pointer;transition:background .2s,border-color .2s}.filter:hover{border-color:var(--cyan);background:#142339}.filter[aria-pressed=true]{background:linear-gradient(110deg,var(--cyan),var(--violet));color:#081121;border-color:transparent}.count{font-size:13px;color:var(--muted);min-height:24px;margin:0 0 24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:60px}.certificate{border:1px solid var(--line);border-radius:8px;padding:26px;display:flex;flex-direction:column;min-height:198px;background:linear-gradient(135deg,#0d1425,#0c1220);transition:border-color .2s,transform .2s}.certificate:hover{border-color:#6583a2;transform:translateY(-2px)}.card-top{display:flex;gap:24px;align-items:flex-start}.issuer-icon{flex-shrink:0;width:60px;height:60px;display:grid;place-items:center;border-radius:8px;background:linear-gradient(135deg,#89fbef,#39d7df);font-weight:750;color:#061527;font-size:26px}.certificate:nth-child(4n+2) .issuer-icon,.certificate:nth-child(4n+3) .issuer-icon{background:linear-gradient(135deg,#c2a8ff,#8e69ed)}h2{font-size:20px;line-height:1.35;letter-spacing:-.4px;margin:5px 0 5px;font-weight:700}.issuer{font-size:14px;color:var(--muted);margin:0}.kind{font-size:12px;color:#91a0bf;margin:9px 0 0}.card-bottom{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:auto;padding-top:24px;font-size:13px}.date{color:var(--muted)}.category{border:1px solid #2b7580;border-radius:30px;color:var(--cyan);padding:2px 11px;font-size:11px;white-space:nowrap}.view{margin-left:auto;background:none;border:0;color:var(--cyan);padding:0;cursor:pointer;font-size:13px;font-weight:650}.view:hover{text-decoration:underline}.verify{font-size:12px;color:var(--violet)}footer{padding:24px 0 34px;border-top:1px solid var(--line);color:var(--muted);display:flex;gap:25px;align-items:flex-start;justify-content:space-between}footer p{margin:0}footer small{font-size:12px;color:#94a5c7}.footnote{max-width:630px;font-size:12px}dialog{width:min(1100px,96vw);max-height:94vh;padding:0;border:1px solid #4b638b;border-radius:12px;background:#10172b;color:var(--text);box-shadow:0 24px 100px #0009}dialog::backdrop{background:#020714db;backdrop-filter:blur(6px)}.dialog-head{padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}.dialog-head h2{font-size:17px;margin:0}.close{background:#202d47;color:white;border:1px solid #4e6289;border-radius:7px;padding:6px 13px;cursor:pointer;font-size:15px}.dialog-body{padding:20px;overflow:auto}.dialog-body img{display:block;width:100%;height:auto;background:white}.dialog-links{display:flex;gap:24px;margin-top:12px;font-size:14px}.skip{position:absolute;left:16px;top:-70px;background:var(--cyan);color:#081121;padding:10px;z-index:20}.skip:focus{top:10px}[hidden]{display:none!important}
-@media(max-width:1000px){.wrap{width:calc(100% - 64px)}.intro{gap:24px}.sub{font-size:17px;padding-left:24px;max-width:245px}h1{font-size:62px;letter-spacing:-2.5px}.orbit{right:-170px;opacity:.4}.card-top{gap:16px}h2{font-size:18px}.certificate{padding:22px}.issuer-icon{width:48px;height:48px;font-size:21px}.view{margin-left:0}}
-@media(max-width:650px){.wrap{width:calc(100% - 36px)}nav{height:76px}.brand{font-size:14px;gap:10px}.monogram{width:35px;height:35px;font-size:18px}nav>a{font-size:13px}.hero{padding:46px 0 34px}.intro{display:block}h1{font-size:48px;letter-spacing:-2px}.sub{max-width:300px;font-size:17px;margin:23px 0 0;padding-left:15px}.orbit{width:310px;right:-180px;top:20px}.filters{gap:8px;margin-top:0}.filter{font-size:13px;padding:7px 15px;min-height:42px}.grid{grid-template-columns:1fr;gap:15px;margin-bottom:40px}.certificate{min-height:180px;padding:22px}.card-bottom{gap:12px}.view{margin-left:auto}.category{font-size:10px}.card-top{gap:17px}h2{font-size:18px}.issuer{font-size:13px}footer{display:block}footer .footnote{margin-top:15px}.dialog-head{padding:12px}.dialog-head h2{font-size:14px}.dialog-body{padding:9px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-@media print{body{background:white;color:black}.orbit,.filters,.view,dialog{display:none}.certificate{break-inside:avoid;background:white}.issuer,.date,.kind,.count{color:#333}}
-</style>
-</head>
-<body>
-<a class="skip" href="#collection">Skip to certificates</a>
-<div class="wrap">
-<nav aria-label="Main"><a class="brand" href="https://github.com/Pranav-Teja-Aluvala"><span class="monogram">PT</span>Pranav Teja Aluvala</a><a href="https://github.com/Pranav-Teja-Aluvala" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
-<header class="hero"><p class="kicker">Certificates</p><div class="intro"><h1>Learning,<br><span>put into practice.</span></h1><p class="sub">Machine learning, AI and the foundations behind them.</p></div>
-<svg class="orbit" viewBox="0 0 500 320" aria-hidden="true"><defs><radialGradient id="sphere"><stop stop-color="#4de7e0" stop-opacity=".5"/><stop offset="1" stop-color="#7364cf" stop-opacity=".15"/></radialGradient></defs><g fill="none" stroke="#6b89b0" stroke-opacity=".5"><ellipse cx="250" cy="160" rx="205" ry="64" transform="rotate(22 250 160)"/><ellipse cx="250" cy="160" rx="190" ry="67" transform="rotate(-22 250 160)"/><circle cx="250" cy="160" r="129" stroke-dasharray="4 7"/></g><circle cx="250" cy="160" r="42" fill="url(#sphere)" stroke="#5eead4"/><g class="orbital"><circle cx="379" cy="160" r="4" fill="#5eead4"/></g><g class="orbital reverse"><circle cx="150" cy="205" r="5" fill="#a78bfa"/></g></svg></header>
-<main id="collection"><div class="filters" role="group" aria-label="Filter certificates"></div><div class="search-row"><p class="count" role="status" aria-live="polite"></p><div class="search-wrap"><label for="search">Search</label><input id="search" type="search" placeholder="Credential or issuer" autocomplete="off"><kbd aria-hidden="true">/</kbd></div></div><div class="grid"></div><noscript><p>JavaScript is needed for the interactive filters. <a href="https://github.com/Pranav-Teja-Aluvala/Pranav-Teja-Aluvala/blob/main/certs.md">Browse the complete certificate collection on GitHub.</a></p></noscript></main>
-<footer><p>Pranav Teja Aluvala<br><small>Student · Learner · Builder</small></p><p class="footnote">A personal learning collection. Course completions, skills assessments, job simulations and participation are labeled as such. Simulations do not represent employment.</p></footer>
-</div>
-<dialog aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><div class="dialog-actions"><button class="dialog-tool" type="button" id="previous" aria-label="Previous certificate">←</button><button class="dialog-tool" type="button" id="next" aria-label="Next certificate">→</button><button class="dialog-tool" type="button" id="zoom" aria-pressed="false">Zoom in</button><button class="close" type="button" aria-label="Close certificate">Close ✕</button></div></div><div class="dialog-body"><div class="dialog-scroll"><img id="certificate-image" alt=""></div><div class="dialog-links"><a id="open-original" target="_blank" rel="noopener noreferrer">Open full image ↗</a><a id="verify" target="_blank" rel="noopener noreferrer">Verify with issuer ↗</a></div></div></dialog>
+:root{--paper:#f6f5f0;--ink:#242621;--muted:#72746b;--rule:#d8d9cf;--accent:#9c4938;--white:#fff;--serif:Georgia,'Times New Roman',serif;--sans:Arial,Helvetica,sans-serif;--mono:'Courier New',monospace;color-scheme:light}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:130px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 var(--sans);-webkit-font-smoothing:antialiased}button,a,input{touch-action:manipulation}button,input{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}button{color:inherit}button:disabled{opacity:.45;cursor:default}.skip{position:absolute;top:-80px;left:20px;background:var(--ink);color:white;padding:10px;z-index:100}.skip:focus{top:10px}.site-header{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);height:82px;display:flex;justify-content:space-between;align-items:center;margin:0 48px}.wordmark{font-weight:600;letter-spacing:-.2px}.wordmark span{color:var(--muted);font-weight:400;margin-left:14px}.top-links{display:flex;align-items:center;gap:26px;font-size:12px}.top-links svg{width:13px;height:13px;vertical-align:-2px;margin-left:5px}.top-links button{border:0;background:none;padding:0;color:var(--muted)}.layout{display:grid;grid-template-columns:185px minmax(0,1fr);gap:58px;max-width:1440px;margin:auto;padding:0 48px}.index{position:sticky;top:134px;align-self:start;padding:10px 0 0}.index-title{font:10px var(--mono);letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin:0 0 23px}.index a{display:flex;gap:14px;padding:8px 0;color:var(--muted);font-size:12px;align-items:baseline}.index a span{font:10px var(--mono);color:#94988e}.index a[aria-current=true]{color:var(--accent)}.index a[aria-current=true] span{color:var(--accent)}.index .index-extra{margin-top:20px;border-top:1px solid var(--rule);padding-top:20px;font-size:11px}.index-progress{height:90px;width:1px;background:var(--rule);position:relative;margin-top:30px}.index-progress i{display:block;width:2px;height:100%;background:var(--accent);transform:scaleY(0);transform-origin:top}main{min-width:0}.hero{padding:65px 0 57px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:flex-end;gap:40px}.hero h1{font:normal clamp(54px,6.2vw,91px)/.99 var(--serif);letter-spacing:-4px;margin:0}.hero h1 em{font-weight:normal;color:var(--accent)}.hero-copy{max-width:260px;padding-bottom:5px;color:var(--muted);font-size:13px}.hero-copy p{margin:0 0 16px}.year{font:10px var(--mono);letter-spacing:1px}.collection-heading{display:flex;justify-content:space-between;align-items:center;margin:38px 0 24px;font:10px var(--mono);text-transform:uppercase;letter-spacing:1.8px;color:var(--muted)}.collection-heading .number{color:var(--accent)}.feature{padding:0 0 54px;scroll-margin-top:110px}.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.date{font:10px var(--mono);letter-spacing:.8px;text-transform:uppercase;color:var(--accent)}h2{font:normal 40px/1.1 var(--serif);letter-spacing:-1.2px;margin:12px 0 16px}.feature .issuer{font-size:12px;line-height:1.6;max-width:300px}.issuer{color:var(--muted);margin:0 0 17px}.summary{font-size:13px;max-width:390px;color:#5e6258}.learning-list{font-size:12px;list-style:none;padding:0;margin:24px 0}.learning-list li{padding:9px 0;border-bottom:1px solid var(--rule);display:flex;gap:13px}.learning-list li span{font:10px var(--mono);color:var(--muted);margin-top:3px}.text-link{display:inline-flex;gap:18px;align-items:center;font-size:12px;border:0;background:none;border-bottom:1px solid var(--ink);padding:0 0 6px;font-weight:600}.text-link:hover{color:var(--accent);border-color:var(--accent)}.text-link svg{width:15px;height:15px}.preview{position:relative;background:#e9e9e1;padding:26px;border:1px solid #dedfd5;width:100%;display:block}.preview img{display:block;width:100%;height:auto;max-height:330px;object-fit:contain;box-shadow:0 3px 14px #25291c14}.preview:after{content:'View record ↗';position:absolute;right:13px;bottom:8px;font:9px var(--mono);color:#676b5d}.feature-note{display:flex;gap:10px;align-items:center;margin-top:14px;color:var(--muted);font-size:10px}.feature-note i{width:5px;height:5px;background:var(--accent);border-radius:50%}.timeline{position:relative;padding-bottom:30px}.timeline:before{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--rule)}.entry{position:relative;display:grid;grid-template-columns:1fr 1fr;column-gap:74px;padding:42px 0 62px;scroll-margin-top:102px}.entry:before{content:'';position:absolute;left:calc(50% - 4px);top:46px;width:9px;height:9px;background:var(--paper);border:1px solid var(--accent);border-radius:50%;z-index:1}.entry .entry-body{grid-column:1;grid-row:1}.entry:nth-child(even) .entry-body{grid-column:2}.entry .entry-date{grid-column:2;grid-row:1;font:10px var(--mono);color:var(--muted);padding-top:1px;letter-spacing:.4px}.entry:nth-child(even) .entry-date{grid-column:1;text-align:right}.entry-number{font:10px var(--mono);color:var(--accent);letter-spacing:1px}.entry h2{font-size:36px;margin-top:12px}.entry .summary{margin-bottom:20px}.entry .preview{padding:20px;margin:24px 0}.entry .preview img{max-height:255px}.mini-list{border-top:1px solid var(--rule);margin:22px 0}.mini-row{display:flex;justify-content:space-between;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:12px}.mini-row small{font:9px var(--mono);color:var(--muted);white-space:nowrap;margin-top:3px}.mini-row span{display:block}.mini-row button{background:none;border:0;padding:0;text-align:left;line-height:1.5}.stack-preview{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#e9e9e1;padding:15px;border:1px solid #dedfd5;margin:24px 0}.stack-preview img{width:100%;aspect-ratio:1.42;object-fit:contain;background:white;display:block}.stack-preview button{padding:0;border:0;background:white}.subtle{font-size:10px;color:var(--muted)}.additional{padding:48px 0 56px;border-top:1px solid var(--rule)}.additional h2{font-size:32px}.additional .mini-row{align-items:center;padding:17px 0}.additional .mini-row small{white-space:normal}.footer{border-top:1px solid var(--rule);padding:26px 0 38px;display:flex;justify-content:space-between;gap:30px;font-size:10px;color:var(--muted)}.footer p{margin:0;max-width:520px}.footer a{white-space:nowrap}.backtop{background:none;border:0;font-size:10px;padding:0}.mobile-index{display:none}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(1180px,calc(100vw - 64px));max-height:calc(100dvh - 64px);box-shadow:0 20px 120px #0003}dialog::backdrop{background:#1a1e1acc;backdrop-filter:blur(4px)}.dialog-bar{display:flex;justify-content:space-between;align-items:center;padding:20px 28px;border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--paper);z-index:2}.dialog-context{font:10px var(--mono);letter-spacing:1.3px;text-transform:uppercase;color:var(--muted)}.close{border:1px solid var(--rule);background:none;font-size:11px;padding:7px 14px}.detail{padding:34px 38px 38px}.detail h2{font-size:42px;max-width:750px;margin:9px 0 12px}.record-header{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;margin-bottom:28px}.record-header p{margin:0;font-size:12px;color:var(--muted)}.provider-word{font-size:25px;font-weight:700;color:#0056d2;letter-spacing:-1px}.preview-label{font:9px var(--mono);color:var(--muted);margin:5px 0 15px}.course-layout{display:grid;grid-template-columns:1fr 260px;gap:24px}.document-frame{border:0;cursor:zoom-in;background:#e8e9e2;padding:24px;min-width:0}.document-frame img{width:100%;display:block;max-height:440px;object-fit:contain}.course-sidebar{background:#efefe9;padding:22px}.course-sidebar h3{font-size:12px;margin:0 0 16px}.course-item{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid var(--rule);font-size:11px;line-height:1.5}.course-item:last-child{border:0}.course-item .check{flex-shrink:0;color:#397454;font-size:13px}.course-item button{border:0;background:none;text-align:left;font-size:11px;line-height:1.5;padding:0}.course-item small{display:block;color:var(--muted);font-size:9px;margin-top:4px}.verification{border-top:1px solid var(--rule);margin-top:27px;padding-top:20px;display:flex;justify-content:space-between;gap:20px;align-items:center}.verification strong{font-size:11px;display:block}.verification small{font-size:10px;color:var(--muted)}.verification a{background:#0056d2;color:white;font-size:11px;padding:11px 20px}.verification .unlinked{font-size:11px;color:var(--muted)}.record-list{display:grid;gap:0}.record-item{display:grid;grid-template-columns:220px 1fr;gap:30px;border-top:1px solid var(--rule);padding:26px 0}.record-item>button{border:0;background:#e9e9e1;padding:13px;height:fit-content}.record-item img{width:100%;height:150px;object-fit:contain;background:white;display:block}.record-item h3{font:normal 27px/1.15 var(--serif);letter-spacing:-.4px;margin:7px 0 8px}.record-item .meta{font:9px var(--mono);text-transform:uppercase;color:var(--muted)}.record-item p{font-size:12px;color:var(--muted);margin:7px 0}.record-item ul,.program ul{font-size:12px;color:#5f645b;padding-left:17px;line-height:1.8}.record-item .text-link{font-size:10px;margin-top:8px}.program{border-top:1px solid var(--rule);padding:26px 0}.program h3{font:normal 29px var(--serif);margin:0 0 8px}.program .meta{font:10px var(--mono);color:var(--muted)}.doc-flow{display:flex;gap:14px;align-items:stretch;margin-top:22px}.doc-button{flex:1;min-width:0;border:1px solid var(--rule);background:#fff;padding:14px;text-align:left;font-size:11px}.doc-button img{width:100%;height:145px;object-fit:contain;display:block;margin-bottom:10px}.doc-button small{display:block;color:var(--muted);font:9px var(--mono);margin-top:6px}.flow-arrow{align-self:center;color:var(--accent)}.doc-count{display:block;font:9px var(--mono);color:var(--accent);margin-bottom:8px}.image-dialog{width:min(1100px,calc(100vw - 48px));background:#ebece5}.image-dialog .image-viewport{padding:24px;overflow:auto;max-height:calc(90dvh - 100px)}.image-dialog img{display:block;width:100%;height:auto}.image-dialog.zoomed img{width:160%;max-width:none}.image-actions{display:flex;gap:8px}.image-actions button,.image-actions a{border:1px solid var(--rule);padding:6px 10px;background:none;font-size:10px}.image-dialog .dialog-bar{padding:14px 20px}.image-dialog .dialog-context{max-width:60%;font-size:9px}body:has(dialog[open]){overflow:hidden}.no-js{font-size:13px;padding:20px 0}
+@media(min-width:1600px){.layout{gap:80px}.hero h1{font-size:104px}.feature-grid{gap:60px}}
+@media(max-width:1100px){.layout{grid-template-columns:145px minmax(0,1fr);gap:30px;padding:0 30px}.site-header{margin:0 30px}.hero{gap:22px}.hero h1{font-size:65px;letter-spacing:-2px}.hero-copy{max-width:205px;font-size:12px}.feature-grid{gap:24px}h2{font-size:33px}.entry{column-gap:46px}.entry h2{font-size:31px}.preview{padding:18px}.course-layout{grid-template-columns:1fr 220px}}
+@media(max-width:760px){html{scroll-padding-top:145px}.site-header{height:68px;margin:0 20px}.wordmark{font-size:12px}.wordmark span{display:none}.top-links{gap:14px;font-size:10px}.layout{display:block;padding:0 22px}.index{display:none}.mobile-index{position:sticky;top:68px;z-index:15;background:var(--paper);display:flex;overflow-x:auto;gap:23px;padding:13px 22px;border-bottom:1px solid var(--rule);scrollbar-width:none}.mobile-index a{font-size:10px;white-space:nowrap;color:var(--muted)}.mobile-index a[aria-current=true]{color:var(--accent)}.hero{padding:40px 0 32px;display:block}.hero h1{font-size:64px;letter-spacing:-2.8px}.hero-copy{max-width:280px;margin-top:23px}.hero-copy p{margin-bottom:11px}.feature-grid{grid-template-columns:1fr;gap:24px}.collection-heading{margin-top:28px;font-size:9px;letter-spacing:1.2px}.feature{padding-bottom:36px}.feature h2{max-width:300px;font-size:38px}.feature .preview{padding:22px}.feature .preview img{max-height:300px}.feature .learning-list{margin:20px 0}.timeline:before{left:5px}.entry{display:block;padding:24px 0 36px 29px;scroll-margin-top:134px}.entry:before{left:1px;top:30px}.entry .entry-date,.entry:nth-child(even) .entry-date{text-align:left;margin-bottom:14px;font-size:9px}.entry h2{font-size:37px;margin:10px 0 12px}.entry .preview{margin:22px 0}.entry .preview img{max-height:290px}.entry .summary{font-size:12px}.mini-row{font-size:11px;gap:10px}.mini-row small{font-size:8px}.additional{padding:32px 0}.additional .mini-row{display:block}.additional .mini-row small{display:block;margin-top:8px}.footer{display:block;padding-bottom:28px}.footer a{display:inline-block;margin-top:15px}dialog{width:calc(100vw - 18px);max-height:calc(100dvh - 20px)}.dialog-bar{padding:13px 17px}.dialog-context{font-size:9px;letter-spacing:.6px}.detail{padding:23px 20px}.detail h2{font-size:34px;letter-spacing:-1px}.record-header{display:block;margin-bottom:20px}.provider-word{margin-bottom:15px}.course-layout{display:block}.document-frame{padding:13px}.course-sidebar{margin-top:16px;padding:18px}.course-item{font-size:11px}.verification{display:block}.verification a{display:inline-block;margin-top:15px}.record-item{grid-template-columns:1fr;gap:16px}.record-item>button{max-width:100%;padding:16px}.record-item img{height:210px}.record-item h3{font-size:28px}.doc-flow{gap:10px}.doc-button{padding:10px;font-size:10px}.doc-button img{height:110px}.image-dialog{width:calc(100vw - 16px)}.image-dialog .dialog-context{max-width:48%}.image-actions{gap:4px}.image-actions button,.image-actions a{padding:6px;font-size:9px}.image-dialog .image-viewport{padding:10px;max-height:80dvh}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+@media print{.index,.mobile-index,.top-links,dialog{display:none!important}.site-header{position:static}.layout{display:block}.entry{break-inside:avoid}.hero{padding-top:20px}.preview{background:white}}
+</style></head><body>
+<a class="skip" href="#main">Skip to learning records</a>
+<header class="site-header"><a class="wordmark" href="https://github.com/Pranav-Teja-Aluvala">Pranav Teja Aluvala<span>Learning archive</span></a><div class="top-links"><button type="button" class="backtop">Back to top ↑</button><a href="https://github.com/Pranav-Teja-Aluvala" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></header>
+<nav class="mobile-index" aria-label="Collections"></nav>
+<div class="layout"><aside class="index"><p class="index-title">Contents</p><nav aria-label="Learning index"></nav><a class="index-extra" href="#additional">Further learning ↗</a><div class="index-progress" aria-hidden="true"><i></i></div></aside>
+<main id="main"><section class="hero"><h1>Certificates<br><em>& learning.</em></h1><div class="hero-copy"><p>Courses, skill assessments, hackathons and internship records, collected in one place.</p><span class="year">2026 / PRANAV TEJA ALUVALA</span></div></section>
+<section class="feature" id="machine-learning" aria-labelledby="ml-title"><div class="collection-heading"><span class="number">01 / Specialization</span><span>04 July 2026</span></div><div class="feature-grid"><div><p class="date">DeepLearning.AI · Stanford Online</p><h2 id="ml-title">Machine Learning<br>Specialization</h2><p class="issuer">Completed through Coursera · 3-course series</p><p class="summary">A foundation in supervised and unsupervised learning, neural networks, recommender systems and reinforcement learning.</p><ol class="learning-list"><li><span>01</span>Regression & classification</li><li><span>02</span>Advanced learning algorithms</li><li><span>03</span>Unsupervised learning & recommendations</li></ol><button class="text-link" type="button" data-open="ml">Open learning record <span aria-hidden="true">↗</span></button></div><div><button class="preview" type="button" data-open="ml" aria-label="Open Machine Learning Specialization"><img src="assets/certificates/machine-learning-specialization.jpg" alt="Machine Learning Specialization certificate issued to Pranav Teja Aluvala" fetchpriority="high"></button><p class="feature-note"><i></i>Specialization certificate & component courses</p></div></div></section>
+<div class="timeline" id="timeline"></div>
+<section class="additional" id="additional"><p class="date">Additional credentials</p><h2>Further learning.</h2><div id="additional-records"></div></section>
+<footer class="footer"><p>Dates follow the supplied records. Collections appear in the selected hierarchy; dated records are ordered within each collection. Job simulations represent practice, not employment.</p><a href="https://www.linkedin.com/in/aluvala-pranav-teja" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></footer>
+<noscript><p class="no-js">For the complete static collection, <a href="https://github.com/Pranav-Teja-Aluvala/Pranav-Teja-Aluvala/blob/main/certs.md">view the GitHub archive</a>. Interactive learning records require JavaScript.</p></noscript></main></div>
+<dialog id="record-dialog" aria-labelledby="record-title"><div class="dialog-bar"><span class="dialog-context" id="record-context"></span><button class="close" type="button" data-close="record-dialog">Close ×</button></div><div class="detail" id="record-content"></div></dialog>
+<dialog id="image-dialog" class="image-dialog" aria-labelledby="image-title"><div class="dialog-bar"><span id="image-title" class="dialog-context"></span><div class="image-actions"><button type="button" id="zoom-image" aria-pressed="false">Zoom</button><a id="original-image" target="_blank" rel="noopener noreferrer">Original ↗</a><button type="button" data-close="image-dialog">Close ×</button></div></div><div class="image-viewport"><img id="full-image" alt=""></div></dialog>
+<script src="assets/vendor/gsap.min.js"></script><script src="assets/vendor/ScrollTrigger.min.js"></script>
 <script>
-const certificates=[
-  {
+const records={
+  "ml": {
     "title": "Machine Learning Specialization",
     "issuer": "DeepLearning.AI & Stanford Online · Coursera",
     "category": "AI & ML",
-    "date": "Jul 2026",
+    "date": "04 Jul 2026",
     "image": "assets/certificates/machine-learning-specialization.jpg",
     "url": "https://coursera.org/verify/specialization/J0QBT7MW77LF",
-    "kind": "Specialization"
+    "kind": "Specialization",
+    "courses": [
+      {
+        "title": "Supervised Machine Learning: Regression and Classification",
+        "date": "04 Jul 2026",
+        "note": "Included in the specialization certificate",
+        "image": "assets/certificates/machine-learning-specialization.jpg",
+        "url": "https://coursera.org/verify/specialization/J0QBT7MW77LF"
+      },
+      {
+        "title": "Advanced Learning Algorithms",
+        "issuer": "DeepLearning.AI & Stanford Online · Coursera",
+        "category": "AI & ML",
+        "date": "Jul 2026",
+        "image": "assets/certificates/advanced-learning-algorithms.jpg",
+        "url": "https://coursera.org/verify/73AH4M9E4IMX",
+        "kind": "Course completion"
+      },
+      {
+        "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        "issuer": "DeepLearning.AI & Stanford Online · Coursera",
+        "category": "AI & ML",
+        "date": "Jul 2026",
+        "image": "assets/certificates/unsupervised-learning-recommenders-reinforcement-learning.jpg",
+        "url": "https://coursera.org/verify/NCM8D0WYLB88",
+        "kind": "Course completion"
+      }
+    ]
   },
-  {
-    "title": "Agentic AI Certified Foundations Associate",
-    "issuer": "Oracle",
-    "category": "AI & ML",
-    "date": "Aug 2026",
-    "image": "assets/certificates/agentic-ai-certified-foundations-associate.jpg",
-    "url": null,
-    "kind": "Foundations certification"
-  },
-  {
-    "title": "Python (Basic)",
-    "issuer": "HackerRank",
-    "category": "Programming",
-    "date": "Feb 2026",
-    "image": "assets/certificates/python-basic.jpg",
-    "url": null,
-    "kind": "Skills assessment"
-  },
-  {
-    "title": "GenAI Powered Data Analytics",
-    "issuer": "Tata · Forage",
-    "category": "Simulations",
-    "date": "Jul 2026",
-    "image": "assets/certificates/genai-powered-data-analytics.jpg",
-    "url": null,
-    "kind": "Job simulation"
-  },
-  {
+  "microsoft": {
     "title": "Career Essentials in Generative AI",
     "issuer": "Microsoft & LinkedIn",
     "category": "AI & ML",
-    "date": "Jul 2026",
+    "date": "12 Jul 2026",
     "image": "assets/certificates/career-essentials-in-generative-ai.jpg",
     "url": null,
-    "kind": "Learning path"
+    "kind": "Learning path",
+    "courses": [
+      {
+        "title": "What Is Generative AI?",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/what-is-generative-ai.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Your Top AI Questions Answered: AI Literacy for Everyone",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Ethics in the Age of Generative AI",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/ethics-in-the-age-of-generative-ai.jpg",
+        "url": null,
+        "kind": "Course completion"
+      },
+      {
+        "title": "Everyday AI Concepts",
+        "issuer": "LinkedIn Learning",
+        "category": "AI & ML",
+        "date": "12 Jul 2026",
+        "image": "assets/certificates/everyday-ai-concepts.jpg",
+        "url": null,
+        "kind": "Course completion"
+      }
+    ]
   },
-  {
-    "title": "Java (Basic)",
-    "issuer": "HackerRank",
-    "category": "Programming",
-    "date": "Mar 2026",
-    "image": "assets/certificates/java-basic.jpg",
-    "url": null,
-    "kind": "Skills assessment"
-  },
-  {
-    "title": "SQL (Basic)",
-    "issuer": "HackerRank",
-    "category": "Programming",
-    "date": "Jun 2026",
-    "image": "assets/certificates/sql-basic.jpg",
-    "url": null,
-    "kind": "Skills assessment"
-  },
-  {
-    "title": "CSS (Basic)",
-    "issuer": "HackerRank",
-    "category": "Programming",
-    "date": "Jun 2026",
-    "image": "assets/certificates/css-basic.jpg",
-    "url": null,
-    "kind": "Skills assessment"
-  },
-  {
-    "title": "Advanced Learning Algorithms",
-    "issuer": "DeepLearning.AI & Stanford Online · Coursera",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/advanced-learning-algorithms.jpg",
-    "url": "https://coursera.org/verify/73AH4M9E4IMX",
-    "kind": "Course completion"
-  },
-  {
-    "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
-    "issuer": "DeepLearning.AI & Stanford Online · Coursera",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/unsupervised-learning-recommenders-reinforcement-learning.jpg",
-    "url": "https://coursera.org/verify/NCM8D0WYLB88",
-    "kind": "Course completion"
-  },
-  {
-    "title": "Introduction to Machine Learning: Art of the Possible",
-    "issuer": "AWS Training & Certification",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/introduction-to-machine-learning-art-of-the-possible.jpg",
-    "url": null,
-    "kind": "Course completion"
-  },
-  {
-    "title": "AI – Data Engineering Analyst",
-    "issuer": "NASSCOM · Skill India Digital Hub",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/ai-data-engineering-analyst.jpg",
-    "url": null,
-    "kind": "Course participation"
-  },
-  {
-    "title": "Ethics in the Age of Generative AI",
-    "issuer": "LinkedIn Learning",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/ethics-in-the-age-of-generative-ai.jpg",
-    "url": null,
-    "kind": "Course completion"
-  },
-  {
-    "title": "Everyday AI Concepts",
-    "issuer": "LinkedIn Learning",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/everyday-ai-concepts.jpg",
-    "url": null,
-    "kind": "Course completion"
-  },
-  {
-    "title": "What Is Generative AI?",
-    "issuer": "LinkedIn Learning",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/what-is-generative-ai.jpg",
-    "url": null,
-    "kind": "Course completion"
-  },
-  {
-    "title": "Your Top AI Questions Answered: AI Literacy for Everyone",
-    "issuer": "LinkedIn Learning",
-    "category": "AI & ML",
-    "date": "Jul 2026",
-    "image": "assets/certificates/your-top-ai-questions-answered-ai-literacy-for-everyone.jpg",
-    "url": null,
-    "kind": "Course completion"
-  },
-  {
-    "title": "Data Analytics",
-    "issuer": "Deloitte Australia · Forage",
-    "category": "Simulations",
-    "date": "Aug 2026",
-    "image": "assets/certificates/data-analytics.jpg",
-    "url": null,
-    "kind": "Job simulation"
-  },
-  {
-    "title": "GenAI",
-    "issuer": "BCG X · Forage",
-    "category": "Simulations",
-    "date": "Jun 2026",
-    "image": "assets/certificates/genai.jpg",
-    "url": null,
-    "kind": "Job simulation"
-  },
-  {
-    "title": "Partnering with AI in the Workplace",
-    "issuer": "Datacom · Forage",
-    "category": "Simulations",
-    "date": "Jun 2026",
-    "image": "assets/certificates/partnering-with-ai-in-the-workplace.jpg",
-    "url": null,
-    "kind": "Job simulation"
-  },
-  {
-    "title": "Cybersecurity",
-    "issuer": "Mastercard · Forage",
-    "category": "Simulations",
-    "date": "Jun 2026",
-    "image": "assets/certificates/cybersecurity.jpg",
-    "url": null,
-    "kind": "Job simulation"
-  },
-  {
-    "title": "Virtual Data Science with Python Apprentice Intern",
-    "issuer": "YuvaIntern",
-    "category": "Programs",
-    "date": "Aug 2026",
-    "image": "assets/certificates/virtual-data-science-with-python-apprentice-intern.jpg",
-    "url": null,
-    "kind": "Virtual internship completion"
-  },
-  {
-    "title": "Data Analytics Hackathon",
-    "issuer": "Gradient Learnings",
-    "category": "Participation",
-    "date": "Oct 2026",
-    "image": "assets/certificates/data-analytics-hackathon.jpg",
-    "url": null,
-    "kind": "Hackathon participation"
-  },
-  {
-    "title": "Adobe University Hackathon",
-    "issuer": "Adobe · Unstop",
-    "category": "Participation",
-    "date": "2026",
-    "image": "assets/certificates/adobe-university-hackathon.jpg",
-    "url": null,
-    "kind": "Hackathon participation"
-  },
-  {
-    "title": "Geeks2Code Hackathon",
-    "issuer": "GFG Campus Body · MIET, Meerut",
-    "category": "Participation",
-    "date": "Date not listed",
-    "image": "assets/certificates/geeks2code-hackathon.jpg",
-    "url": null,
-    "kind": "Hackathon participation"
-  }
-];
-const categories=['All','AI & ML','Programming','Simulations','Programs','Participation'];
-const filters=document.querySelector('.filters'),grid=document.querySelector('.grid'),count=document.querySelector('.count'),dialog=document.querySelector('dialog'),search=document.querySelector('#search');
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let activeCategory='All',shown=certificates,currentIndex=0;
-function render(category=activeCategory){
- activeCategory=category;for(const button of filters.children)button.setAttribute('aria-pressed',String(button.textContent===category));
- const query=search.value.trim().toLowerCase();shown=certificates.filter(c=>(category==='All'||c.category===category)&&`${c.title} ${c.issuer} ${c.kind}`.toLowerCase().includes(query));
- count.textContent=`${shown.length} ${shown.length===1?'credential':'credentials'} · ${query?'Search results':category==='All'?'Complete collection':category}`;
- grid.innerHTML=shown.length?shown.map(c=>`<article class="certificate"><div class="card-top"><button class="certificate-thumb" type="button" data-image="${esc(c.image)}" aria-label="Preview ${esc(c.title)}"><img src="${esc(c.image)}" alt="" loading="lazy"></button><div><h2>${esc(c.title)}</h2><p class="issuer">${esc(c.issuer)}</p><p class="kind">${esc(c.kind)}</p></div></div><div class="card-bottom"><span class="date">${esc(c.date)}</span><span class="category">${esc(c.category)}</span><button class="view" type="button" data-image="${esc(c.image)}">View certificate ↗</button></div></article>`).join(''):'<p class="empty">No matching credentials. Try a different title or issuer.</p>';
+  "hackerrank": [
+    {
+      "title": "Python (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "18 Feb 2026",
+      "image": "assets/certificates/python-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "Java (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "09 Mar 2026",
+      "image": "assets/certificates/java-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "26 Jun 2026",
+      "image": "assets/certificates/sql-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    },
+    {
+      "title": "CSS (Basic)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "26 Jun 2026",
+      "image": "assets/certificates/css-basic.jpg",
+      "url": null,
+      "kind": "Skills assessment"
+    }
+  ],
+  "participation": [
+    {
+      "title": "Data Analytics Hackathon",
+      "issuer": "Gradient Learnings",
+      "category": "Participation",
+      "date": "02 Oct 2026",
+      "image": "assets/certificates/data-analytics-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Worked on the VoltRelay battery-swapping network challenge.",
+        "Used Python for data preparation, exploratory analysis and visual reporting across network, station, battery and support data."
+      ],
+      "project": "https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026"
+    },
+    {
+      "title": "Adobe University Hackathon",
+      "issuer": "Adobe · Unstop",
+      "category": "Participation",
+      "date": "2026 · date not on certificate",
+      "image": "assets/certificates/adobe-university-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Participated in the Adobe University Hackathon.",
+        "The supplied certificate records participation; no placement is claimed."
+      ]
+    },
+    {
+      "title": "Geeks2Code Hackathon",
+      "issuer": "GFG Campus Body · MIET, Meerut",
+      "category": "Participation",
+      "date": "Date not listed",
+      "image": "assets/certificates/geeks2code-hackathon.jpg",
+      "url": null,
+      "kind": "Hackathon participation",
+      "bullets": [
+        "Participated in the Geeks2Code Hackathon organized by the GFG Campus Body at MIET, Meerut."
+      ]
+    }
+  ],
+  "forage": [
+    {
+      "title": "Cybersecurity",
+      "issuer": "Mastercard · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/cybersecurity.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Designed a phishing-email simulation.",
+        "Interpreted phishing-simulation results."
+      ]
+    },
+    {
+      "title": "Partnering with AI in the Workplace",
+      "issuer": "Datacom · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/partnering-with-ai-in-the-workplace.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Practiced effective prompting and AI-assisted research and design.",
+        "Worked through an AI-assisted debugging exercise."
+      ]
+    },
+    {
+      "title": "GenAI",
+      "issuer": "BCG X · Forage",
+      "category": "Simulations",
+      "date": "25 Jun 2026",
+      "image": "assets/certificates/genai.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Completed data-extraction and initial-analysis tasks.",
+        "Worked through an AI-powered financial-chatbot exercise."
+      ]
+    },
+    {
+      "title": "GenAI Powered Data Analytics",
+      "issuer": "Tata · Forage",
+      "category": "Simulations",
+      "date": "18 Jul 2026",
+      "image": "assets/certificates/genai-powered-data-analytics.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Explored data quality and risk profiling.",
+        "Planned AI-assisted delinquency analysis and communicated collection-strategy insights."
+      ]
+    },
+    {
+      "title": "Data Analytics",
+      "issuer": "Deloitte Australia · Forage",
+      "category": "Simulations",
+      "date": "01 Aug 2026",
+      "image": "assets/certificates/data-analytics.jpg",
+      "url": null,
+      "kind": "Job simulation",
+      "bullets": [
+        "Completed data-analysis and forensic-technology exercises."
+      ]
+    }
+  ],
+  "yuva": [
+    {
+      "title": "R Data Analyst",
+      "period": "23 Jul — 20 Aug 2026",
+      "date": "20 Aug 2026",
+      "duration": "4 weeks · Remote",
+      "docs": [
+        {
+          "title": "R Data Analyst — Offer letter",
+          "issuer": "YuvaIntern",
+          "date": "23 Jul–20 Aug 2026",
+          "image": "assets/certificates/yuva-r-offer.jpg",
+          "kind": "Offer letter",
+          "url": null
+        },
+        {
+          "title": "Virtual R Data Analyst Intern",
+          "issuer": "YuvaIntern",
+          "date": "20 Aug 2026",
+          "image": "assets/certificates/yuva-r-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Reports document Titanic data cleaning and visualization with R.",
+        "Iris exercises cover statistical testing, decision-tree classification, cross-validation and final reporting."
+      ]
+    },
+    {
+      "title": "Data Science Explorer",
+      "period": "Completed 20 Aug 2026",
+      "date": "20 Aug 2026",
+      "duration": "Virtual program",
+      "docs": [
+        {
+          "title": "Virtual Data Science Explorer Intern",
+          "issuer": "YuvaIntern",
+          "date": "20 Aug 2026",
+          "image": "assets/certificates/yuva-explorer-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Completed the Virtual Data Science Explorer Intern program.",
+        "The completion record does not detail specific tasks."
+      ]
+    },
+    {
+      "title": "Data Science with Python",
+      "period": "23 Jul — 27 Aug 2026",
+      "date": "27 Aug 2026",
+      "duration": "5 weeks · Remote",
+      "docs": [
+        {
+          "title": "Python Data Science — Offer letter",
+          "issuer": "YuvaIntern",
+          "date": "23 Jul–27 Aug 2026",
+          "image": "assets/certificates/yuva-python-offer.jpg",
+          "kind": "Offer letter",
+          "url": null
+        },
+        {
+          "title": "Virtual Data Science with Python Apprentice Intern",
+          "issuer": "YuvaIntern",
+          "category": "Programs",
+          "date": "27 Aug 2026",
+          "image": "assets/certificates/virtual-data-science-with-python-apprentice-intern.jpg",
+          "url": null,
+          "kind": "Completion certificate"
+        }
+      ],
+      "bullets": [
+        "Program materials cover Python data acquisition, cleaning, EDA and statistical analysis.",
+        "Weekly reports include model-development and evaluation exercises. Hypothetical and synthetic-data work is treated as coursework."
+      ]
+    },
+    {
+      "title": "Content Writing",
+      "period": "Completed 03 Sep 2026",
+      "date": "03 Sep 2026",
+      "duration": "Virtual program",
+      "docs": [
+        {
+          "title": "Content Writer Internship",
+          "issuer": "YuvaIntern",
+          "date": "03 Sep 2026",
+          "image": "assets/certificates/yuva-content-completion.jpg",
+          "kind": "Completion certificate",
+          "url": null
+        }
+      ],
+      "bullets": [
+        "Completed the Content Writer Internship program.",
+        "The completion letter was issued on 3 September 2026."
+      ]
+    }
+  ],
+  "additional": [
+    {
+      "title": "AI – Data Engineering Analyst",
+      "issuer": "NASSCOM · Skill India Digital Hub",
+      "category": "AI & ML",
+      "date": "14 Jul 2026",
+      "image": "assets/certificates/ai-data-engineering-analyst.jpg",
+      "url": null,
+      "kind": "Course participation"
+    },
+    {
+      "title": "Introduction to Machine Learning: Art of the Possible",
+      "issuer": "AWS Training & Certification",
+      "category": "AI & ML",
+      "date": "31 Jul 2026",
+      "image": "assets/certificates/introduction-to-machine-learning-art-of-the-possible.jpg",
+      "url": null,
+      "kind": "Course completion"
+    },
+    {
+      "title": "Agentic AI Certified Foundations Associate",
+      "issuer": "Oracle",
+      "category": "AI & ML",
+      "date": "09 Aug 2026",
+      "image": "assets/certificates/agentic-ai-certified-foundations-associate.jpg",
+      "url": null,
+      "kind": "Foundations certification"
+    }
+  ]
+};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const groups=[{id:'machine-learning',name:'Machine Learning',key:'ml'},{id:'microsoft',name:'Microsoft & LinkedIn',key:'microsoft'},{id:'hackerrank',name:'HackerRank',key:'hackerrank'},{id:'participation',name:'Participation',key:'participation'},{id:'forage',name:'Forage simulations',key:'forage'},{id:'yuva',name:'YuvaIntern',key:'yuva'}];
+document.querySelector('.index nav').innerHTML=groups.map((g,i)=>`<a href="#${g.id}"><span>${String(i+1).padStart(2,'0')}</span>${g.name}</a>`).join('');document.querySelector('.mobile-index').innerHTML=groups.map(g=>`<a href="#${g.id}">${g.name}</a>`).join('');
+const mini=(label,date)=>`<div class="mini-row"><span>${esc(label)}</span><small>${esc(date)}</small></div>`;
+const preview=(record,key)=>`<button class="preview" type="button" data-open="${key}" aria-label="Open ${esc(record.title)}"><img src="${record.image}" alt="${esc(record.title)} certificate" loading="lazy"></button>`;
+const entries=[{id:'microsoft',key:'microsoft',number:'02',label:'Learning path',date:'12 JUL 2026',title:'Career Essentials<br>in Generative AI.',issuer:'Microsoft & LinkedIn',summary:'Career Essentials in Generative AI brings the concepts, practical questions and responsible use of AI into one learning path.',visual:preview(records.microsoft,'microsoft'),sub:records.microsoft.courses.map(c=>mini(c.title,'12 JUL')).join(''),action:'Explore learning path'},
+{id:'hackerrank',key:'hackerrank',number:'03',label:'Skills assessments',date:'18 FEB — 26 JUN 2026',title:'Programming<br>foundations.',issuer:'HackerRank',summary:'Basic-level assessments in Python, Java, SQL and CSS. Each record retains its assessed level and original issue date.',visual:`<div class="stack-preview">${records.hackerrank.map((c,i)=>`<button type="button" data-image-key="hackerrank:${i}" aria-label="View ${esc(c.title)}"><img src="${c.image}" alt="${esc(c.title)} certificate" loading="lazy"></button>`).join('')}</div>`,sub:records.hackerrank.map(c=>mini(c.title,c.date)).join(''),action:'View assessment records'},
+{id:'participation',key:'participation',number:'04',label:'Hackathons',date:'2026 / DATED & UNDATED RECORDS',title:'Hackathon<br>participation.',issuer:'Gradient · Adobe · Geeks2Code',summary:'Hackathon participation, including the Gradient data analytics challenge and its VoltRelay network-analysis notebook.',visual:preview(records.participation.find(c=>c.project),'participation'),sub:mini('Gradient Data Analytics Hackathon','02 OCT 2026')+mini('Adobe University Hackathon','2026')+mini('Geeks2Code Hackathon','UNDATED'),action:'Open participation records'},
+{id:'forage',key:'forage',number:'05',label:'Job simulations',date:'25 JUN — 01 AUG 2026',title:'Forage<br>simulations.',issuer:'Forage',summary:'Structured exercises in data analytics, generative AI, cybersecurity and AI-assisted work. These are job simulations, not employment.',visual:preview(records.forage[3],'forage'),sub:mini('Mastercard · Datacom · BCG X','25 JUN')+mini('Tata','18 JUL')+mini('Deloitte Australia','01 AUG'),action:'Explore simulation work'},
+{id:'yuva',key:'yuva',number:'06',label:'Virtual programs',date:'23 JUL — 03 SEP 2026',title:'YuvaIntern<br>programs.',issuer:'YuvaIntern',summary:'Four completed virtual programs, with available offer letters and completion records kept together. Python and R records include supporting coursework context.',visual:preview(records.yuva[0].docs[1],'yuva'),sub:mini('R Data Analyst · Data Science Explorer','20 AUG')+mini('Data Science with Python','27 AUG')+mini('Content Writing','03 SEP'),action:'Open program records'}];
+document.querySelector('#timeline').innerHTML=entries.map(e=>`<section class="entry" id="${e.id}" aria-labelledby="${e.id}-title"><p class="entry-date">${e.date}</p><div class="entry-body"><span class="entry-number">${e.number} / ${e.label}</span><h2 id="${e.id}-title">${e.title}</h2><p class="issuer">${e.issuer}</p><p class="summary">${e.summary}</p>${e.visual}<div class="mini-list">${e.sub}</div><button class="text-link" type="button" data-open="${e.key}">${e.action}<span aria-hidden="true">↗</span></button></div></section>`).join('');
+document.querySelector('#additional-records').innerHTML=records.additional.map((c,i)=>`<div class="mini-row"><button type="button" data-image-key="additional:${i}">${esc(c.title)}<br><small>${esc(c.issuer)}</small></button><small>${esc(c.date)} · ${esc(c.kind)} ↗</small></div>`).join('');
+const recordDialog=document.querySelector('#record-dialog'),imageDialog=document.querySelector('#image-dialog'),content=document.querySelector('#record-content');
+const bullets=a=>a?.length?`<ul>${a.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`:'';
+function imageButton(c,key){return `<button type="button" data-image-key="${key}" aria-label="View ${esc(c.title)}"><img src="${c.image}" alt="${esc(c.title)}" loading="lazy"></button>`}
+function openRecord(key){
+ let title='',body='',context='';
+ if(key==='ml'||key==='microsoft'){
+ const r=records[key],isML=key==='ml';title=isML?'Machine Learning Specialization':'Career Essentials in Generative AI';context=isML?'Coursera / Learning record':'Microsoft & LinkedIn / Learning path';
+ body=`<div class="record-header"><div><div class="${isML?'provider-word':'dialog-context'}">${isML?'coursera':'Microsoft + LinkedIn'}</div><p class="preview-label">Personal credential preview · not an issuer-hosted page</p><h2 id="record-title">${esc(title)}</h2><p>${esc(r.issuer)}</p></div><p>Pranav Teja Aluvala<br>Completed ${esc(r.date)}</p></div><div class="course-layout"><button class="document-frame" type="button" data-image-key="${key}" aria-label="View full ${esc(title)} certificate"><img src="${r.image}" alt="${esc(title)} certificate"></button><aside class="course-sidebar"><h3>${isML?'The three-course series':'Course certificates in this archive'}</h3>${r.courses.map((c,i)=>`<div class="course-item"><span class="check" aria-hidden="true">✓</span><div><button type="button" data-image-key="${key}:courses:${i}">${esc(c.title)}</button><small>${esc(c.note||c.date)} ↗</small></div></div>`).join('')}</aside></div><div class="verification"><div><strong>${isML?'Issuer verification':'Completion record'}</strong><small>${isML?'Verify the specialization on Coursera.':'Learning path completed on 12 July 2026.'}</small></div>${isML?`<a href="${r.url}" target="_blank" rel="noopener noreferrer">Verify on Coursera ↗</a>`:`<button class="text-link" type="button" data-image-key="microsoft">View completion certificate ↗</button>`}</div>`;
+ }else if(key==='yuva'){
+ title='YuvaIntern';context='Virtual programs / Offer to completion';body=`<p class="date">Program records</p><h2 id="record-title">YuvaIntern</h2><p class="summary">Available documents follow each program from its offer through completion. The records below describe virtual learning programs.</p>${records.yuva.map((p,i)=>`<section class="program"><h3>${esc(p.title)}</h3><p class="meta">${esc(p.period)} · ${esc(p.duration)}</p>${bullets(p.bullets)}<div class="doc-flow">${p.docs.map((d,j)=>`${j?'<span class="flow-arrow" aria-hidden="true">→</span>':''}<button class="doc-button" type="button" data-image-key="yuva:${i}:docs:${j}"><span class="doc-count">${p.docs.length===1?'COMPLETION':j===0?'01 / OFFER':'02 / COMPLETION'}</span><img src="${d.image}" alt="${esc(d.title)}"><strong>${esc(d.kind)}</strong><small>${esc(d.date)}</small></button>`).join('')}</div></section>`).join('')}`;
+ }else{
+ const definitions={hackerrank:['HackerRank','Skills assessments / Basic level'],participation:['Participation','Hackathon records'],forage:['Forage simulations','Practice / Not employment']};[title,context]=definitions[key];
+ body=`<p class="date">${esc(context)}</p><h2 id="record-title">${esc(title)}</h2><div class="record-list">${records[key].map((c,i)=>`<article class="record-item">${imageButton(c,key+':'+i)}<div><span class="meta">${esc(c.date)} / ${esc(c.kind)}</span><h3>${esc(c.title)}</h3><p>${esc(c.issuer)}</p>${bullets(c.bullets)}<button class="text-link" type="button" data-image-key="${key}:${i}">View certificate ↗</button>${c.project?` &nbsp; <a class="text-link" href="${c.project}" target="_blank" rel="noopener noreferrer">View project ↗</a>`:''}</div></article>`).join('')}</div>`;
+ }
+ document.querySelector('#record-context').textContent=context;content.innerHTML=body;recordDialog.showModal();recordDialog.scrollTop=0;
 }
-function openCertificate(index){currentIndex=(index+shown.length)%shown.length;const c=shown[currentIndex];document.querySelector('#dialog-title').textContent=c.title;const img=document.querySelector('#certificate-image');img.src=c.image;img.alt=`${c.title} — certificate issued to Pranav Teja Aluvala`;document.querySelector('#open-original').href=c.image;const link=document.querySelector('#verify');link.hidden=!c.url;if(c.url)link.href=c.url;document.querySelector('.dialog-scroll').classList.remove('zoomed');document.querySelector('#zoom').textContent='Zoom in';document.querySelector('#zoom').setAttribute('aria-pressed','false');if(!dialog.open)dialog.showModal()}
-for(const category of categories){const button=document.createElement('button');button.type='button';button.className='filter';button.textContent=category;button.addEventListener('click',()=>render(category));filters.append(button)}
-search.addEventListener('input',()=>render());
-grid.addEventListener('click',e=>{const button=e.target.closest('[data-image]');if(button)openCertificate(shown.findIndex(c=>c.image===button.dataset.image))});
-document.querySelector('.close').addEventListener('click',()=>dialog.close());document.querySelector('#previous').addEventListener('click',()=>openCertificate(currentIndex-1));document.querySelector('#next').addEventListener('click',()=>openCertificate(currentIndex+1));document.querySelector('#zoom').addEventListener('click',e=>{const zoomed=document.querySelector('.dialog-scroll').classList.toggle('zoomed');e.target.textContent=zoomed?'Fit to view':'Zoom in';e.target.setAttribute('aria-pressed',String(zoomed))});
-document.addEventListener('keydown',e=>{if(dialog.open){if(e.key==='ArrowRight'){e.preventDefault();openCertificate(currentIndex+1)}if(e.key==='ArrowLeft'){e.preventDefault();openCertificate(currentIndex-1)}}else if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus()}});
-dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});render('All');
-</script>
-</body></html>
+function resolveRecord(path){return path.split(':').reduce((obj,k)=>obj[k],records)}
+function openImage(key){const r=resolveRecord(key);document.querySelector('#image-title').textContent=r.title;const im=document.querySelector('#full-image');im.src=r.image;im.alt=r.title+' — original document';document.querySelector('#original-image').href=r.image;imageDialog.classList.remove('zoomed');document.querySelector('#zoom-image').textContent='Zoom';document.querySelector('#zoom-image').setAttribute('aria-pressed','false');imageDialog.showModal();}
+document.addEventListener('click',e=>{const open=e.target.closest('[data-open]'),image=e.target.closest('[data-image-key]'),close=e.target.closest('[data-close]');if(open)openRecord(open.dataset.open);else if(image)openImage(image.dataset.imageKey);else if(close)document.getElementById(close.dataset.close).close();});
+document.querySelector('#zoom-image').addEventListener('click',e=>{const z=imageDialog.classList.toggle('zoomed');e.target.textContent=z?'Fit':'Zoom';e.target.setAttribute('aria-pressed',String(z));});
+for(const d of [recordDialog,imageDialog])d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}});
+document.querySelector('.backtop').addEventListener('click',()=>window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
+const navLinks=[...document.querySelectorAll('.index nav a,.mobile-index a')];const observer=new IntersectionObserver(list=>{for(const item of list)if(item.isIntersecting){navLinks.forEach(a=>a.setAttribute('aria-current',String(a.hash==='#'+item.target.id)));}},{rootMargin:'-18% 0px -57% 0px',threshold:0});groups.forEach(g=>observer.observe(document.getElementById(g.id)));
+if(window.gsap&&window.ScrollTrigger){gsap.registerPlugin(ScrollTrigger);const mm=gsap.matchMedia();mm.add('(prefers-reduced-motion: no-preference)',()=>{gsap.from('.hero h1,.hero-copy',{y:18,opacity:0,stagger:.12,duration:.85,ease:'power2.out'});gsap.utils.toArray('.entry-body').forEach(el=>gsap.from(el,{y:30,opacity:0,duration:.75,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}}));gsap.to('.index-progress i',{scaleY:1,ease:'none',scrollTrigger:{trigger:'main',start:'top top',end:'bottom bottom',scrub:.6}})});}
+</script></body></html>
 
