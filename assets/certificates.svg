@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="148" viewBox="0 0 1200 148" role="img" aria-label="Certificates and learning — explore the collection"><rect x="1" y="1" width="1198" height="146" fill="#f6f5f0" stroke="#d8d9cf"/><path d="M1 1V147" stroke="#9c4938" stroke-width="4"/><text x="36" y="65" font-family="Georgia,serif" font-size="38" fill="#242621">Certificates &amp; learning.</text><text x="38" y="108" font-family="Arial,sans-serif" font-size="19" fill="#62665d">Machine learning · Skill assessments · Hackathons · Simulations</text><text x="1145" y="88" text-anchor="end" font-family="Arial,sans-serif" font-size="40" fill="#9c4938">↗</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="206" viewBox="0 0 1264 206" role="img" aria-label="Certificates and learning — explore the collection">
+  <defs>
+    <filter id="s" filterUnits="userSpaceOnUse" x="-30" y="-20" width="1260" height="200" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14" result="bw"/>
+      <feOffset in="bw" dy="16" result="ow"/>
+      <feColorMatrix in="ow" type="matrix" values="0 0 0 0 0.12  0 0 0 0 0.11  0 0 0 0 0.09  0 0 0 0.17 0" result="sw"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="bt"/>
+      <feOffset in="bt" dy="4" result="ot"/>
+      <feColorMatrix in="ot" type="matrix" values="0 0 0 0 0.12  0 0 0 0 0.11  0 0 0 0 0.09  0 0 0 0.15 0" result="st"/>
+      <feMerge><feMergeNode in="sw"/><feMergeNode in="st"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c"><rect x="1" y="1" width="1198" height="146" rx="10"/></clipPath>
+  </defs>
+  <g transform="translate(32 10)">
+    <rect x="1" y="1" width="1198" height="146" rx="10" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#s)"/>
+    <rect x="1" y="1" width="5" height="146" fill="#9c4938" clip-path="url(#c)"/>
+    <text x="38" y="65" font-family="Georgia,serif" font-size="38" fill="#242621">Certificates &amp; learning.</text>
+    <text x="38" y="108" font-family="Arial,sans-serif" font-size="19" fill="#62665d">Machine learning · Skill assessments · Hackathons · Simulations</text>
+    <text x="1145" y="88" text-anchor="end" font-family="Arial,sans-serif" font-size="40" fill="#9c4938">↗</text>
+  </g>
+</svg>
