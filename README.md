@@ -1,88 +1,105 @@
-<img src="assets/header.svg" width="100%" alt="Pranav Teja Aluvala — Teaching machines to learn. Still learning myself. Open to internships.">
+<!-- GitHub profile README. Deliberately uses no SVG/image embeds: GitHub makes images open their source files. -->
 
-<p>
-  <img src="assets/linkedin.svg" width="150" alt="LinkedIn">
-  <img src="assets/email.svg" width="150" alt="Email">
-  <img src="assets/leetcode.svg" width="150" alt="LeetCode">
-</p>
+<table width="100%">
+  <tr>
+    <td>
+      <sub>COMPUTER SCIENCE · MACHINE LEARNING</sub>
+      <h1>Teaching machines to learn.<br>Still learning myself.</h1>
+      <p>Third-year CSE student · KITSW, Warangal</p>
+      <p><strong>🚀 Open to internships</strong> · <a href="mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity">Let's talk ↗</a></p>
+    </td>
+  </tr>
+</table>
 
-[LinkedIn](https://www.linkedin.com/in/aluvala-pranav-teja) · [Email](mailto:pranavteja.aluvala@gmail.com) · [LeetCode](https://leetcode.com/u/A-pranavTeja/)
+<table>
+  <tr>
+    <td><a href="https://www.linkedin.com/in/aluvala-pranav-teja"><strong>in&nbsp; LinkedIn ↗</strong></a></td>
+    <td><a href="mailto:pranavteja.aluvala@gmail.com"><strong>✉&nbsp; Email ↗</strong></a></td>
+    <td><a href="https://leetcode.com/u/A-pranavTeja/"><strong>⌨&nbsp; LeetCode ↗</strong></a></td>
+  </tr>
+</table>
 
-> **🚀 Open to internships!** Interested in **AI/ML, software development, and practical problem-solving**. [Get in touch ↗](mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity)
+## A little about me.
 
-## Hi. I write code. Sometimes it writes back.
+I'm a **third-year CSE student at KITSW, Warangal**, learning machine learning, data analysis, and software development. Random project ideas arrive at 2 AM. Remembering to commit them is a separate problem.
 
-I'm a **third-year CSE student at KITSW, Warangal**, exploring machine learning, data analysis, and software development. I turn random ideas into projects, usually at 2 AM, when my decision-making should legally be supervised.
-
-I enjoy building useful things, learning how they work, and occasionally vibe-coding myself into a problem I now have to understand properly. The commit history is not always invited to witness this.
-
-**Fifth semester** · CGPA **8.82** · Latest SGPA **9.65**
-
-*Current status: learning ML, shipping experiments, and trying to remember that uncommitted code is basically a hostage situation.*
+**Fifth semester** · **CGPA 8.82** · **Latest SGPA 9.65**
 
 ## Things I am familiar with.
 
-<img src="assets/toolkit.svg" width="100%" alt="Programming: Python, Java, C. Web: HTML, CSS, JavaScript, React, Node.js. Databases: MongoDB, SQL. Machine learning: scikit-learn, PyTorch, TensorFlow. Data analysis: NumPy, pandas, Matplotlib, Seaborn.">
+| Area | Tools |
+| :--- | :--- |
+| **Programming** | Python · Java · C |
+| **Web technologies** | HTML · CSS · JavaScript · React · Node.js · TypeScript |
+| **Databases** | SQL · MongoDB · SQLite |
+| **Machine learning** | scikit-learn · PyTorch · TensorFlow |
+| **Data analysis** | NumPy · pandas · Matplotlib · Seaborn |
 
 ## Selected projects.
 
-A few things I have built and worked on.
-
-### 01 / [DROP](https://github.com/Pranav-Teja-Aluvala/Drop)
-
-**React · TypeScript · Node.js · WebRTC**
-
-Move files, links, or notes between two devices in a temporary room. No recipient signup, just a pairing flow and some WebRTC diplomacy.
-
-**Status:** Direct-only public beta. Some networks won't connect without a relay; physical-phone and cross-network certification, independent security review, and capacity testing are still pending. **Don't send sensitive files during beta.**
-
-[Repository ↗](https://github.com/Pranav-Teja-Aluvala/Drop) · [Try the public beta ↗](https://drop-devs-52b0.vercel.app) · [Security notes ↗](https://github.com/Pranav-Teja-Aluvala/Drop/blob/main/SECURITY.md)
-
-### 02 / Support Ticket Intelligence
-
-**React · TypeScript · FastAPI · scikit-learn · SQLite**
-
-A local banking support inbox that classifies questions into **77 intents**, shows similar examples, and lets a human approve or correct the suggested routing. A model can suggest a team; it does not get to appoint itself manager.
-
-**Model:** TF-IDF + logistic regression, with a recorded **90.20% test accuracy** on its processed BANKING77 split. Local inference, human review, and SQLite history. A single-user demo, not a production support desk.
-
-*Repository is private for now, so this is a project summary rather than an invitation to a 404.*
-
-### 03 / [VoltRelay Energy · Data Analytics Hackathon](https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026)
-
-**Python · Data analysis**
-
-Explored station operations, battery health, and support data across approximately **3.88 million swap-event records**. The dataset was large. My RAM filed a complaint.
-
-[View the notebook ↗](https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026)
+<table width="100%">
+  <tr>
+    <td>
+      <h3>01 / DROP</h3>
+      <p><strong>React · TypeScript · Node.js · WebRTC</strong></p>
+      <p>Move a file, link, or note between two devices using a temporary room. No recipient signup, just pairing and a direct WebRTC connection when the network cooperates.</p>
+      <p><strong>Status:</strong> Direct-only public beta. Some networks require a relay, and real-device/cross-network certification, external security review, and capacity testing remain pending. Avoid sensitive files during the beta.</p>
+      <p><a href="https://github.com/Pranav-Teja-Aluvala/Drop"><strong>Repository ↗</strong></a> · <a href="https://drop-devs-52b0.vercel.app"><strong>Live beta ↗</strong></a> · <a href="https://github.com/Pranav-Teja-Aluvala/Drop/blob/main/SECURITY.md">Security notes ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>02 / Support Ticket Intelligence</h3>
+      <p><strong>React · TypeScript · FastAPI · scikit-learn · SQLite</strong></p>
+      <p>A local support inbox that classifies banking questions into 77 intents and lets a reviewer accept or correct its recommendations. The model suggests; the human decides.</p>
+      <p><strong>Recorded result:</strong> 90.20% held-out test accuracy with TF-IDF and logistic regression on a processed BANKING77 split. Single-user local demo, not a production support desk.</p>
+      <p><em>Private repository · Project summary only</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>03 / VoltRelay Energy · Data Analytics Hackathon</h3>
+      <p><strong>Python · Data analysis</strong></p>
+      <p>Exploring station operations, battery health, and support data with a workflow for roughly 3.88 million swap-event records. The dataset had opinions about RAM.</p>
+      <p><a href="https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026"><strong>View project ↗</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Certificates & learning.
 
-<img src="assets/certificates.svg" width="100%" alt="Certificates and learning collection">
-
-The certificate collection outgrew this README and ended up with its own page. There is, apparently, an entire Google Drive involved. **FR.**
-
-I say "I built a page." My agent did the building; I handled the instructions and unsolicited feedback. A very modern division of labour.
-
-*Machine learning · Skill assessments · Hackathons · Simulations*
-
-**[View certificates ↗](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)**
+<table width="100%">
+  <tr>
+    <td>
+      <h3>Apparently, the certificates needed their own page.</h3>
+      <p>Turns out there's a whole Google Drive full of them. Listing everything here would turn this README into a terms-and-conditions document. <strong>FR.</strong></p>
+      <p>So they got a dedicated page. By "I built it," I mean <strong>my agent</strong>. I provided the instructions and complained when something broke. Project management, apparently.</p>
+      <p><sub>Machine learning · Skill assessments · Hackathons · Simulations</sub></p>
+      <p><a href="https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html"><strong>View the certificate collection ↗</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Human.exe | Still in beta.
 
-- `feat:` 2 AM ideas are somehow becoming real projects.
-- `fix:` Learning to commit before the universe decides to reboot.
-- `refactor:` Moving from "it works, don't touch it" to "I can explain why it works." Progress.
-- `background process:` Music, always. Silence is a suspicious environment.
-- `known issue:` Can spend an entire evening doing nothing and still need a break.
-- `main quest:` Land an internship. `side quest:` Acquire a life. Both active.
+| Patch | Status |
+| :--- | :--- |
+| `feat:` | 2 AM ideas keep becoming real projects. |
+| `fix:` | Trying to remember Git commits before they become folklore. |
+| `refactor:` | Learning to explain *why* the code works. |
+| `background:` | Music. Almost always. |
+| `main quest:` | Get an internship. |
+| `side quest:` | Get a life. Pending. |
 
-## 🚀 Looking for internships. Seriously.
+## 🚀 Looking for internships!
 
-I'm a third-year CSE student exploring **AI/ML, software development, and practical problem-solving**. I'm looking for internships where I can contribute to real projects, learn from a team, and ship things beyond localhost.
-
-I bring hands-on project experience, curiosity, and the willingness to learn the parts that AI-generated code refuses to explain.
-
-**Open to internships and thoughtful collaborations.** The sarcasm lives in the README; the work gets taken seriously.
-
-**[✉ Get in touch ↗](mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity)** · **[Connect on LinkedIn ↗](https://www.linkedin.com/in/aluvala-pranav-teja)**
+<table width="100%">
+  <tr>
+    <td>
+      <h3>Have a project I could help build?</h3>
+      <p>I'm looking for internships in <strong>AI/ML, software development, and practical engineering</strong>, where I can contribute, learn from a team, and ship useful work beyond localhost.</p>
+      <p>Curious, hands-on, and willing to read the documentation (eventually). The jokes stay in the README; the work gets taken seriously.</p>
+      <p><a href="mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity"><strong>✉ Email me ↗</strong></a> · <a href="https://www.linkedin.com/in/aluvala-pranav-teja"><strong>Connect on LinkedIn ↗</strong></a></p>
+    </td>
+  </tr>
+</table>
