@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="222" viewBox="0 0 1264 222" role="img" aria-label="Looking for internships."><defs><filter id="s" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="b"/><feOffset in="b" dy="9" result="o"/><feComponentTransfer in="o" result="f"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="f"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<g transform="translate(32 10)"><rect x="1" y="1" width="1198" height="177" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#s)"/>
-<rect x="1" y="19" width="5" height="140" rx="2" fill="#a8392b"/>
-<text x="39" y="32" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#a8392b">OPEN FOR OPPORTUNITIES</text>
-<text x="39" y="72" font-family="Georgia,serif" font-size="33" fill="#242621">Looking for internships.</text>
-<text x="40" y="95" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#62665d">AI/ML   ·   Software development   ·   Practical engineering</text>
-<text x="40" y="122" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#4f514c">Interested in real projects, thoughtful teams, and shipping beyond localhost.</text><text x="40" y="152" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#4f514c">I take the work seriously. The README gets the occasional joke.</text>
-<text x="1151" y="154" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#a8392b">LET'S CONNECT</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="260" viewBox="0 0 1264 260" role="img" aria-label="Looking for internships.">
+<defs><filter id="card-shadow" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset in="blur" dy="9" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g transform="translate(32 14)">
+<rect x="1" y="1" width="1198" height="205" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#card-shadow)"/>
+<rect x="1" y="20" width="5" height="165" rx="2" fill="#a8392b"/>
+<text x="39" y="35" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#a8392b">OPEN FOR OPPORTUNITIES</text>
+<text x="1150" y="35" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.2" fill="#a8392b">LET'S CONNECT</text>
+<text x="39" y="82" font-family="Georgia,serif" font-size="36" fill="#242621">Looking for internships.</text>
+<text x="40" y="119" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#62665d">AI/ML  ·  Software development  ·  Practical engineering</text>
+<text x="40" y="160" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">Interested in real projects, thoughtful teams, and shipping beyond localhost.</text>
+<text x="40" y="194" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">I take the work seriously. The README gets the occasional joke.</text>
+</g></svg>
