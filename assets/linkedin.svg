@@ -1,17 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="268" height="90" viewBox="0 0 268 90" role="img" aria-label="LinkedIn">
   <defs>
-    <filter id="s" filterUnits="userSpaceOnUse" x="-14" y="-8" width="268" height="90" color-interpolation-filters="sRGB">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="bw"/>
-      <feOffset in="bw" dy="7" result="ow"/>
-      <feColorMatrix in="ow" type="matrix" values="0 0 0 0 0.12  0 0 0 0 0.11  0 0 0 0 0.09  0 0 0 0.17 0" result="sw"/>
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="bt"/>
-      <feOffset in="bt" dy="2" result="ot"/>
-      <feColorMatrix in="ot" type="matrix" values="0 0 0 0 0.12  0 0 0 0 0.11  0 0 0 0 0.09  0 0 0 0.15 0" result="st"/>
-      <feMerge><feMergeNode in="sw"/><feMergeNode in="st"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <filter id="unified-shadow" x="-20%" y="-35%" width="150%" height="190%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur"/><feOffset in="blur" dy="8" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope="0.20"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <g transform="translate(14 8)">
-    <rect x="1" y="1" width="238" height="60" rx="10" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#s)"/>
+    <rect x="1" y="1" width="238" height="60" rx="10" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#unified-shadow)"/>
     <g transform="translate(18 19)">
       <rect x="1" y="1" width="22" height="22" rx="3" fill="#0a66c2"/>
       <path d="M6 10v8m0-12v.2M11 18v-8m0 4c0-5 7-5 7 0v4" fill="none" stroke="white" stroke-width="2.4"/>
