@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="222" viewBox="0 0 1264 222" role="img" aria-label="DROP"><defs><filter id="s" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="b"/><feOffset in="b" dy="9" result="o"/><feComponentTransfer in="o" result="f"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="f"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<g transform="translate(32 10)"><rect x="1" y="1" width="1198" height="177" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#s)"/>
-<rect x="1" y="19" width="5" height="140" rx="2" fill="#9c4938"/>
-<text x="39" y="32" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#9c4938">01 / SELECTED WORK</text>
-<text x="39" y="72" font-family="Georgia,serif" font-size="33" fill="#242621">DROP</text>
-<text x="40" y="95" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#62665d">React  /  TypeScript  /  Node.js  /  WebRTC</text>
-<text x="40" y="122" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#4f514c">Temporary rooms for moving files, links and notes between devices.</text><text x="40" y="152" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#4f514c">Direct-only public beta. No signup; relay and wider testing still pending.</text>
-<text x="1151" y="154" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#9c4938">PUBLIC BETA</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="260" viewBox="0 0 1264 260" role="img" aria-label="DROP">
+<defs><filter id="card-shadow" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset in="blur" dy="9" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g transform="translate(32 14)">
+<rect x="1" y="1" width="1198" height="205" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#card-shadow)"/>
+<rect x="1" y="20" width="5" height="165" rx="2" fill="#9c4938"/>
+<text x="39" y="35" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#9c4938">01 / SELECTED WORK</text>
+<text x="1150" y="35" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.2" fill="#9c4938">PUBLIC BETA</text>
+<text x="39" y="82" font-family="Georgia,serif" font-size="36" fill="#242621">DROP</text>
+<text x="40" y="119" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#62665d">React  ·  TypeScript  ·  Node.js  ·  WebRTC</text>
+<text x="40" y="160" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">Move files, links and notes between two devices in a temporary room.</text>
+<text x="40" y="194" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">No recipient signup. Direct WebRTC transfer, with beta limits noted below.</text>
+</g></svg>
