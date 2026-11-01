@@ -1,7 +1,5 @@
 # Profile visual system
 
-Flat palette: warm ivory, cobalt, coral, lime, lilac, plum ink. No gradient fills, black backgrounds, glow filters, or glass panels.
+User-selected pearl, deep navy and silver palette. Existing Georgia Italic, Trebuchet and Consolas typography retained. No gradients or dark backgrounds. Static header artwork.
 
-All descriptions, tools, results, and caveats live in SVG panels, with complete accessible descriptions in SVG and README image alt text. Text links remain native Markdown. Separate 480px compositions are selected through picture sources for smaller screens. Typography uses Georgia Italic, Trebuchet, and Consolas.
-
-Artwork is original. Existing brand icons are reused from the earlier toolkit. Restrained motion retains reduced-motion support.
+Contained numbered markers, rounded clipping, subtle linen pattern, two offset shadow layers and added panel spacing. Project descriptions and limitations remain within SVG panels. Sarcastic asides use italic serif text. Clickable image components replace plain social and project action links. Separate mobile layouts remain. Brand icons retain their original colors.
