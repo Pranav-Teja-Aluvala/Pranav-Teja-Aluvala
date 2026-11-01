@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="260" viewBox="0 0 1264 260" role="img" aria-label="DROP">
-<defs><filter id="card-shadow" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset in="blur" dy="9" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<g transform="translate(32 14)">
-<rect x="1" y="1" width="1198" height="205" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#card-shadow)"/>
-<rect x="1" y="20" width="5" height="165" rx="2" fill="#9c4938"/>
-<text x="39" y="35" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#9c4938">01 / SELECTED WORK</text>
-<text x="1150" y="35" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.2" fill="#9c4938">PUBLIC BETA</text>
-<text x="39" y="82" font-family="Georgia,serif" font-size="36" fill="#242621">DROP</text>
-<text x="40" y="119" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#62665d">React  ·  TypeScript  ·  Node.js  ·  WebRTC</text>
-<text x="40" y="160" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">Move files, links and notes between two devices in a temporary room.</text>
-<text x="40" y="194" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">No recipient signup. Direct WebRTC transfer, with beta limits noted below.</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="144" viewBox="0 0 960 144" role="img" aria-labelledby="title"><title id="title">DROP</title><rect x="1" y="1" width="958" height="142" rx="18" fill="#f7f3eb" stroke="#ded6c9"/><text x="28" y="36" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#a44d38" letter-spacing="1.5">01 / SELECTED WORK</text><text x="28" y="83" font-family="Georgia, Times New Roman, serif" font-size="38" fill="#292b28" >DROP</text><text x="29" y="116" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#62685f" >Pair. Send. Gone.</text><g transform="translate(763 25)" fill="none" stroke="#a44d38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="0" y="10" width="48" height="66" rx="7"/><rect x="97" y="10" width="48" height="66" rx="7"/><path d="M60 31H86M79 24L86 31L79 38M86 55H60M67 48L60 55L67 62"/><path d="M17 65H31M114 65H128"/></g></svg>

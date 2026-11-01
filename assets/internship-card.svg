@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="260" viewBox="0 0 1264 260" role="img" aria-label="Looking for internships.">
-<defs><filter id="card-shadow" x="-10%" y="-25%" width="125%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset in="blur" dy="9" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope=".21"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<g transform="translate(32 14)">
-<rect x="1" y="1" width="1198" height="205" rx="12" fill="#f6f5f0" stroke="#d8d9cf" filter="url(#card-shadow)"/>
-<rect x="1" y="20" width="5" height="165" rx="2" fill="#a8392b"/>
-<text x="39" y="35" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.2" fill="#a8392b">OPEN FOR OPPORTUNITIES</text>
-<text x="1150" y="35" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.2" fill="#a8392b">LET'S CONNECT</text>
-<text x="39" y="82" font-family="Georgia,serif" font-size="36" fill="#242621">Looking for internships.</text>
-<text x="40" y="119" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#62665d">AI/ML  ·  Software development  ·  Practical engineering</text>
-<text x="40" y="160" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">Interested in real projects, thoughtful teams, and shipping beyond localhost.</text>
-<text x="40" y="194" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#4f514c">I take the work seriously. The README gets the occasional joke.</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="156" viewBox="0 0 960 156" role="img" aria-labelledby="title"><title id="title">Let’s build something beyond localhost.</title><rect x="1" y="1" width="958" height="154" rx="18" fill="#f7f3eb" stroke="#ded6c9"/><text x="30" y="35" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#a44d38" letter-spacing="1.5">NEXT CHAPTER / INTERNSHIPS</text><text x="30" y="81" font-family="Georgia, Times New Roman, serif" font-size="35" fill="#292b28" >Let’s build beyond localhost.</text><text x="30" y="120" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#62685f" >AI/ML · Software development · Curiosity included.</text><g transform="translate(805 43)" stroke="#a44d38" stroke-width="3" fill="none"><path d="M4 41C4 9 54 9 54 41V66H4Z"/><path d="M29 15V2M19 2H39M-5 41H63M11 77H47"/><circle cx="19" cy="43" r="2"/><circle cx="39" cy="43" r="2"/><path d="M20 55Q29 62 38 55"/></g></svg>

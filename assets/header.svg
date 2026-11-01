@@ -1,18 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1272 486" width="1272" height="486" role="img" aria-labelledby="t d">
-  <title id="t">Teaching machines to learn. Still learning myself.</title>
-  <desc id="d">Third-year CSE student in Warangal, India. Open to internships.</desc>
-  <defs>
-    <filter id="unified-shadow" x="-20%" y="-35%" width="150%" height="190%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur"/><feOffset in="blur" dy="8" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope="0.20"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-
-  <g transform="translate(36 14)">
-    <rect x="1" y="1" width="1198" height="398" rx="10" fill="#f6f5f0" stroke="#d8d9cf" stroke-width="1" filter="url(#unified-shadow)"/>
-    <rect x="80" y="72" width="64" height="4" fill="#a8392b"/>
-    <text x="80" y="172" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#1f1f1d" letter-spacing="-1.5">Teaching machines to learn.</text>
-    <text x="80" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#1f1f1d" letter-spacing="-1.5">Still learning myself.</text>
-    <text x="80" y="296" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#5d5d58">Computer science &amp; machine learning</text>
-    <line x1="80" y1="332" x2="1120" y2="332" stroke="#dcd8cc" stroke-width="1.5"/>
-    <text x="80" y="366" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#5d5d58">Third-year CSE student · Warangal, India</text>
-    <text x="1120" y="366" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#a8392b">Open to internships ↗</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title"><title id="title">Pranav Teja Aluvala — Teaching machines to learn. Still learning myself.</title><rect x="1" y="1" width="958" height="328" rx="18" fill="#f7f3eb" stroke="#ded6c9"/><path d="M700 32H925V283H700" fill="none" stroke="#e6ded1" stroke-dasharray="4 7"/>
+<text x="38" y="43" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#97503d" letter-spacing="2">PRANAV TEJA ALUVALA</text>
+<text x="38" y="113" font-family="Georgia, Times New Roman, serif" font-size="46" fill="#292b28" >Teaching machines</text>
+<text x="38" y="164" font-family="Georgia, Times New Roman, serif" font-size="46" fill="#292b28" >to learn.</text>
+<text x="38" y="218" font-family="Georgia, Times New Roman, serif" font-size="37" fill="#a44d38" font-style="italic">Still learning myself.</text>
+<line x1="736" y1="112" x2="807" y2="92" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="112" x2="807" y2="152" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="112" x2="807" y2="212" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="172" x2="807" y2="92" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="172" x2="807" y2="152" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="172" x2="807" y2="212" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="232" x2="807" y2="92" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="232" x2="807" y2="152" stroke="#b8c9be" stroke-width="1.5"/><line x1="736" y1="232" x2="807" y2="212" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="92" x2="878" y2="132" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="92" x2="878" y2="192" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="152" x2="878" y2="132" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="152" x2="878" y2="192" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="212" x2="878" y2="132" stroke="#b8c9be" stroke-width="1.5"/><line x1="807" y1="212" x2="878" y2="192" stroke="#b8c9be" stroke-width="1.5"/><circle cx="736" cy="112" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="736" cy="172" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="736" cy="232" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="807" cy="92" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="807" cy="152" r="9" fill="#ac503b" stroke="#ac503b" stroke-width="2"/><circle cx="807" cy="212" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="878" cy="132" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><circle cx="878" cy="192" r="9" fill="#f7f3eb" stroke="#668473" stroke-width="2"/><text x="731" y="267" font-family="monospace" font-size="13" fill="#6e766d" >loss: decreasing, hopefully</text>
+<line x1="38" y1="253" x2="650" y2="253" stroke="#d8cec0" />
+<text x="38" y="287" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#61685e" >CSE @ KITSW  /  Warangal, India</text>
+<circle cx="714" cy="296" r="4" fill="#668473"/><text x="727" y="301" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#496854" >Open to internships</text>
 </svg>

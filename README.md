@@ -1,12 +1,6 @@
-# Pranav Teja Aluvala
-
-### Teaching machines to learn. Still learning myself.
-
-CSE student at **KITSW, Warangal** · Machine learning · Data analysis · Software development
+<img src="assets/header.svg" width="100%" alt="Pranav Teja Aluvala — Teaching machines to learn. Still learning myself. CSE at KITSW, Warangal. Open to internships.">
 
 [LinkedIn](https://www.linkedin.com/in/aluvala-pranav-teja) · [Email](mailto:pranavteja.aluvala@gmail.com) · [LeetCode](https://leetcode.com/u/A-pranavTeja/) · [Certificates](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)
-
-> **Open to internships** in AI/ML and software development. I’d love to contribute to real projects, learn from a team, and build things beyond localhost.
 
 ## A little about me
 
@@ -16,18 +10,13 @@ I'm a third-year CSE student who likes turning ideas into working projects, espe
 
 ## My toolkit
 
-| Area | Tools I’m familiar with |
-| :--- | :--- |
-| Programming | Python · Java · C |
-| Web | HTML · CSS · JavaScript · React · Node.js |
-| Databases | MongoDB · SQL |
-| Machine learning | scikit-learn · PyTorch · TensorFlow |
-| Data analysis | NumPy · pandas · Matplotlib · Seaborn |
+<img src="assets/toolkit.svg" width="100%" alt="Programming: Python, Java, C. Web: HTML, CSS, JavaScript, React, Node.js. Databases: MongoDB, SQL. Machine learning: scikit-learn, PyTorch, TensorFlow. Data analysis: NumPy, pandas, Matplotlib, Seaborn.">
 
 ## Selected projects
 
-### DROP
-**Device-to-device sharing** · React · TypeScript · Node.js · WebRTC
+<img src="assets/project-drop.svg" width="100%" alt="01 — DROP. Pair. Send. Gone.">
+
+**Device-to-device sharing** · `React` · `TypeScript` · `Node.js` · `WebRTC`
 
 Move a file, link, or note between two devices in a temporary room. No recipient signup; pair the devices and share through a direct WebRTC connection when the network cooperates.
 
@@ -40,16 +29,18 @@ Direct-only public beta. Some networks require a relay. Real-device and cross-ne
 
 </details>
 
-### Support Ticket Intelligence
-**Human-reviewed text classification** · Python · scikit-learn
+<img src="assets/project-tickets.svg" width="100%" alt="02 — Support Ticket Intelligence. The model suggests. The human decides.">
+
+**Human-reviewed text classification** · `Python` · `scikit-learn`
 
 A local support inbox that classifies English banking questions into **77 intents** and lets a reviewer accept or correct its recommendations. The model suggests; the human decides.
 
 - **Result:** 90.20% held-out test accuracy with TF-IDF and logistic regression on a processed BANKING77 split.
 - **Scope:** Single-user local demo; private repository.
 
-### VoltRelay Energy
-**Hackathon data analysis** · Python · pandas · Matplotlib
+<img src="assets/project-voltrelay.svg" width="100%" alt="03 — VoltRelay Energy. 3.88 million swaps. A few RAM negotiations.">
+
+**Hackathon data analysis** · `Python` · `pandas` · `Matplotlib`
 
 Explored station operations, battery health, and support data across approximately **3.88 million swap-event records**. The dataset had opinions about RAM.
 
@@ -57,12 +48,15 @@ Explored station operations, battery health, and support data across approximate
 
 ## Learning & certificates
 
+<img src="assets/certificates.svg" width="100%" alt="Always a work in progress — certificates and learning.">
+
 Machine learning, skill assessments, hackathons, and simulations. The full collection lives on its own page to keep this one readable.
 
 [Browse my certificates →](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)
 
-<details>
-<summary>Off the clock · Human.exe, still in beta</summary>
+## Human.exe · Still in beta
+
+`listening to music`　`debugging at 2 AM`　`git commit… eventually`
 
 - **Background process:** Music. Almost always.
 - **Current refactor:** Learning to explain why the code works.
@@ -71,8 +65,6 @@ Machine learning, skill assessments, hackathons, and simulations. The full colle
 
 I built the certificate page with help from my agent. I provided the instructions and complained when something broke. Project management, apparently.
 
-</details>
-
----
+<img src="assets/internship-card.svg" width="100%" alt="Open for AI/ML and software development internships — let’s build beyond localhost.">
 
 Have something interesting to build? [Email me](mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity) or [connect on LinkedIn](https://www.linkedin.com/in/aluvala-pranav-teja).
