@@ -1,10 +1,7 @@
-# Profile art direction
+# Profile visual system
 
-Original SVG artwork. References reviewed for composition and motion:
+Flat palette: warm ivory, cobalt, coral, lime, lilac, plum ink. No gradient fills, black backgrounds, glow filters, or glass panels.
 
-- https://github.com/halfrost/halfrost — atmospheric header and technical identity.
-- https://github.com/natemoo-re/natemoo-re — personal voice and music as personality.
-- https://github.com/beydemirfurkan/awesome-github-profile — generative Flow Field, Aurora Veil, and Glassmorphism Hero studies.
-- https://github.com/saroo98/profile-signal-kit — dark animated visual system.
+All descriptions, tools, results, and caveats live in SVG panels, with complete accessible descriptions in SVG and README image alt text. Text links remain native Markdown. Separate 480px compositions are selected through picture sources for smaller screens. Typography uses Georgia Italic, Trebuchet, and Consolas.
 
-The compositions and SVG code here were drawn for this profile; no template source was copied. Existing technology icons were preserved from the prior toolkit asset. Motion uses local SVG CSS, with a reduced-motion preference. No external image or statistics service.
+Artwork is original. Existing brand icons are reused from the earlier toolkit. Restrained motion retains reduced-motion support.
