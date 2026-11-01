@@ -42,7 +42,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/project-drop-mobile.svg">
-  <img src="assets/project-drop.svg" width="100%" alt="DROP. Files, links, and notes between two devices in a temporary room. No recipient signup: pair the devices and share through a direct WebRTC connection when the network cooperates.   React · TypeScript · Node.js · WebRTC. Direct-only public beta. Some networks require a relay. Real-device and cross-network certification, independent security review, and capacity testing remain pending. Avoid sensitive files during the beta.">
+  <img src="assets/project-drop.svg" width="100%" alt="DROP. Share files, links, and notes in a temporary two-device room. The host approves pairing; both devices compare a verification code before sending. WebRTC carries the transfer, and the receiver checks the file before saving.   React · TypeScript · Node.js · WebRTC. Direct-only public beta. Some networks require a relay. Real-device and cross-network certification, independent security review, and capacity testing remain pending. Avoid sensitive files during the beta.">
 </picture>
 
 <br>
@@ -60,7 +60,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/project-voltrelay-mobile.svg">
-  <img src="assets/project-voltrelay.svg" width="100%" alt="VoltRelay Energy. Explored station operations, battery health, and support data across approximately 3.88 million swap-event records. 3.88 million records. One investigation. The dataset had opinions about RAM. Python · pandas · Matplotlib. ">
+  <img src="assets/project-voltrelay.svg" width="100%" alt="VoltRelay Energy. A notebook exploring a battery-swapping network: station outages, battery health, and support-ticket patterns. A chunked cleaning workflow processes swap events and saves cleaned data as Parquet. 3,877,013 swap-event rows in saved output The dataset had opinions about RAM. Python · pandas · Matplotlib. Exploratory analysis. Source datasets are not included in the repository; completion-event labels need alignment before affected revenue and retention outputs can support conclusions.">
 </picture>
 
 <br>
@@ -78,27 +78,27 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/certificates-mobile.svg">
-  <img src="assets/certificates.svg" width="100%" alt="Certificates and learning. Machine learning, hackathons, skill assessments, and simulations. The full collection lives on its own page. Otherwise this turns into a terms-and-conditions document.">
+  <img src="assets/certificates.svg" width="100%" alt="Certificates and learning. Turns out there’s a whole Google Drive full of certificates. Listing everything here would turn this README into a terms-and-conditions document. FR. So they got a dedicated page. By “I built it,” I mean my agent. I provided the instructions and complained when something broke. Project management, apparently. Machine learning · Skill assessments · Hackathons · Simulations">
 </picture>
 
 <br>
 
-<a href="https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html"><img src="assets/link-collection.svg" width="215" alt="Browse the certificate collection"></a>
+<p align="center"><a href="https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html"><img src="assets/link-collection.svg" width="215" alt="View certs"></a></p>
 
 <br>
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/human-mobile.svg">
-  <img src="assets/human.svg" width="100%" alt="Human.exe: music on, sleep pending. 2 AM ideas. Learning why the code works. Remembering Git commits eventually. Side quest: Get a life. Pending. I built the certificate page with help from my agent. I provided the instructions and complained when something broke. Project management, apparently.">
+  <img src="assets/human.svg" width="100%" alt="Human.exe. Music and Minecraft. Doomscrolling, for research purposes. Vibe coding. If it works, apparently that was the plan. Pretty chill. The compiler can panic for both of us.">
 </picture>
 
 <br>
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/internship-card-mobile.svg">
-  <img src="assets/internship-card.svg" width="100%" alt="Open to internships. AI/ML, software development, and practical engineering. Real projects, thoughtful teams, and building beyond localhost.">
+  <img src="assets/internship-card.svg" width="100%" alt="Open to internships. I’m looking for internship opportunities in AI/ML, software development, and practical engineering. I’d love to contribute to real projects, learn from a team, and build things beyond localhost. I take the work seriously. The README gets the occasional joke.">
 </picture>
 
 <br>
 
-<p><a href="mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity"><img src="assets/link-talk.svg" width="215" alt="Email about internships"></a> <a href="https://www.linkedin.com/in/aluvala-pranav-teja"><img src="assets/link-linkedin.svg" width="215" alt="Connect on LinkedIn"></a></p>
+<p align="center"><a href="mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity"><img src="assets/link-talk.svg" width="215" alt="Email about internships"></a></p>
