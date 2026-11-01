@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="156" viewBox="0 0 960 156" role="img" aria-labelledby="title"><title id="title">Let’s build something beyond localhost.</title><rect x="1" y="1" width="958" height="154" rx="18" fill="#f7f3eb" stroke="#ded6c9"/><text x="30" y="35" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#a44d38" letter-spacing="1.5">NEXT CHAPTER / INTERNSHIPS</text><text x="30" y="81" font-family="Georgia, Times New Roman, serif" font-size="35" fill="#292b28" >Let’s build beyond localhost.</text><text x="30" y="120" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#62685f" >AI/ML · Software development · Curiosity included.</text><g transform="translate(805 43)" stroke="#a44d38" stroke-width="3" fill="none"><path d="M4 41C4 9 54 9 54 41V66H4Z"/><path d="M29 15V2M19 2H39M-5 41H63M11 77H47"/><circle cx="19" cy="43" r="2"/><circle cx="39" cy="43" r="2"/><path d="M20 55Q29 62 38 55"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="174" viewBox="0 0 960 174" role="img" aria-labelledby="title"><title id="title">Good things start with a conversation. Open to AI/ML and software internships.</title><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141d29"/><stop offset="1" stop-color="#090e16"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#75dbc8" stop-opacity=".17"/><stop offset="1" stop-color="#75dbc8" stop-opacity="0"/></radialGradient>
+<linearGradient id="ink"><stop stop-color="#f6f8fb"/><stop offset="1" stop-color="#a7b9cc"/></linearGradient>
+<linearGradient id="spectrum"><stop stop-color="#66d8c1"/><stop offset=".48" stop-color="#76adf3"/><stop offset="1" stop-color="#c0b6ee"/></linearGradient>
+<linearGradient id="glass" x2=".8" y2="1"><stop stop-color="#d4eeff" stop-opacity=".12"/><stop offset="1" stop-color="#d4eeff" stop-opacity=".02"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a3c2dc" stroke-opacity=".04"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+<clipPath id="frame"><rect x="1" y="1" width="958" height="172" rx="20"/></clipPath>
+</defs><style>
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes breathe{0%,100%{opacity:.35}50%{opacity:.95}}
+@keyframes travel{to{stroke-dashoffset:-80}}
+@keyframes equalize{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+.orbit{animation:orbit 38s linear infinite;transform-box:fill-box;transform-origin:center}
+.float{animation:float 8s ease-in-out infinite}
+.pulse{animation:breathe 5s ease-in-out infinite}
+.signal{stroke-dasharray:3 17;animation:travel 4s linear infinite}
+.eq{animation:equalize 2s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@media(prefers-reduced-motion:reduce){.orbit,.float,.pulse,.signal,.eq{animation:none}}
+</style><g clip-path="url(#frame)"><rect x="0" y="0" width="960" height="174" rx="20" fill="url(#bg)" stroke="none" /><rect x="0" y="0" width="960" height="174" rx="0" fill="url(#grid)" stroke="none" /><circle cx="814" cy="86" r="230" fill="url(#halo)" /><text x="30" y="34" font-size="12" fill="#8adbc9" font-family="Consolas, Courier New, monospace" letter-spacing="1.1">OPEN TO INTERNSHIPS / AI + SOFTWARE</text><text x="29" y="83" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#f1f5f9" letter-spacing="-1">Good things start with a conversation.</text><text x="31" y="121" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#a2b3c4" >Real projects. Thoughtful teams. Something worth building.</text><g transform="translate(817 36)"><circle cx="44" cy="44" r="37" fill="url(#glass)" stroke="#45666f"/><path d="M22 65L66 22M22 22H66V65" fill="none" stroke="#9ce1d1" stroke-width="2.5"/><circle cx="44" cy="44" r="44" fill="none" stroke="#93cecc" stroke-width="1" class="pulse"/></g></g><rect x="1" y="1" width="958" height="172" rx="20" fill="none" stroke="#2b3746" /><line x1="34" y1="1" x2="310" y2="1" stroke="#7897ac" stroke-opacity=".55"/></svg>

@@ -1,70 +1,84 @@
-<img src="assets/header.svg" width="100%" alt="Pranav Teja Aluvala — Teaching machines to learn. Still learning myself. CSE at KITSW, Warangal. Open to internships.">
+<img src="assets/header.svg" width="100%" alt="Teaching machines to learn. Still learning myself. Curiosity, compiled. Open to internships.">
 
-[LinkedIn](https://www.linkedin.com/in/aluvala-pranav-teja) · [Email](mailto:pranavteja.aluvala@gmail.com) · [LeetCode](https://leetcode.com/u/A-pranavTeja/) · [Certificates](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)
+<p align="center">
+  <a href="https://www.linkedin.com/in/aluvala-pranav-teja">LinkedIn ↗</a> &nbsp; / &nbsp;
+  <a href="mailto:pranavteja.aluvala@gmail.com">Email ↗</a> &nbsp; / &nbsp;
+  <a href="https://leetcode.com/u/A-pranavTeja/">LeetCode ↗</a> &nbsp; / &nbsp;
+  <a href="https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html">Certificates ↗</a>
+</p>
 
-## A little about me
+### A little context
 
-I'm a third-year CSE student who likes turning ideas into working projects, especially where data and software meet. The ideas usually arrive at 2 AM; remembering to commit them is an ongoing side quest.
+I like turning “what if?” into something I can actually run. Currently exploring **machine learning, data analysis, and software development** — and learning to explain why the code works, not just celebrating when it does.
 
-**Fifth semester** · **CGPA 8.82** · **Latest SGPA 9.65**
-
-## My toolkit
-
-<img src="assets/toolkit.svg" width="100%" alt="Programming: Python, Java, C. Web: HTML, CSS, JavaScript, React, Node.js. Databases: MongoDB, SQL. Machine learning: scikit-learn, PyTorch, TensorFlow. Data analysis: NumPy, pandas, Matplotlib, Seaborn.">
-
-## Selected projects
-
-<img src="assets/project-drop.svg" width="100%" alt="01 — DROP. Pair. Send. Gone.">
-
-**Device-to-device sharing** · `React` · `TypeScript` · `Node.js` · `WebRTC`
-
-Move a file, link, or note between two devices in a temporary room. No recipient signup; pair the devices and share through a direct WebRTC connection when the network cooperates.
-
-[Repository](https://github.com/Pranav-Teja-Aluvala/Drop) · [Try the public beta](https://drop-devs-52b0.vercel.app) · [Security notes](https://github.com/Pranav-Teja-Aluvala/Drop/blob/main/SECURITY.md)
+The ideas usually arrive at 2 AM. Remembering to commit them is an ongoing side quest.
 
 <details>
-<summary>Beta status & limitations</summary>
+<summary>Academic notes</summary>
+
+Third-year CSE student · Fifth semester · **CGPA 8.82** · **Latest SGPA 9.65**
+
+</details>
+
+<br>
+
+<img src="assets/toolkit.svg" width="100%" alt="Tools I’m familiar with: Python, Java, C; HTML, CSS, JavaScript, React, Node.js; scikit-learn, PyTorch, TensorFlow; NumPy, pandas, Matplotlib, Seaborn, MongoDB and SQL.">
+
+### Selected work
+
+<img src="assets/project-drop.svg" width="100%" alt="01 — DROP. Device-to-device sharing. A small bridge between your devices.">
+
+Files, links, and notes between two devices in a temporary room. No recipient signup; pair the devices and share through a direct WebRTC connection when the network cooperates.
+
+<code>React</code> · <code>TypeScript</code> · <code>Node.js</code> · <code>WebRTC</code>
+
+**[Explore the code ↗](https://github.com/Pranav-Teja-Aluvala/Drop)** · [Try the public beta ↗](https://drop-devs-52b0.vercel.app) · [Security notes](https://github.com/Pranav-Teja-Aluvala/Drop/blob/main/SECURITY.md)
+
+<details>
+<summary>Public beta — status & limitations</summary>
 
 Direct-only public beta. Some networks require a relay. Real-device and cross-network certification, independent security review, and capacity testing remain pending. Avoid sensitive files during the beta.
 
 </details>
 
-<img src="assets/project-tickets.svg" width="100%" alt="02 — Support Ticket Intelligence. The model suggests. The human decides.">
+<br>
 
-**Human-reviewed text classification** · `Python` · `scikit-learn`
+<img src="assets/project-tickets.svg" width="100%" alt="02 — Support Ticket Intelligence. 77 intents, with a human in the loop.">
 
-A local support inbox that classifies English banking questions into **77 intents** and lets a reviewer accept or correct its recommendations. The model suggests; the human decides.
+A local support inbox that classifies English banking questions into **77 intents**. A reviewer accepts or corrects each recommendation. The model suggests; the human decides.
 
-- **Result:** 90.20% held-out test accuracy with TF-IDF and logistic regression on a processed BANKING77 split.
-- **Scope:** Single-user local demo; private repository.
+<code>Python</code> · <code>scikit-learn</code> · <code>TF-IDF</code> · <code>Logistic regression</code>
 
-<img src="assets/project-voltrelay.svg" width="100%" alt="03 — VoltRelay Energy. 3.88 million swaps. A few RAM negotiations.">
+**90.20% held-out test accuracy** on a processed BANKING77 split. Single-user local demo; private repository.
 
-**Hackathon data analysis** · `Python` · `pandas` · `Matplotlib`
+<br>
+
+<img src="assets/project-voltrelay.svg" width="100%" alt="03 — VoltRelay Energy. Finding the story inside 3.88 million swap-event records.">
 
 Explored station operations, battery health, and support data across approximately **3.88 million swap-event records**. The dataset had opinions about RAM.
 
-[Explore the project](https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026)
+<code>Python</code> · <code>pandas</code> · <code>Matplotlib</code>
 
-## Learning & certificates
+**[Explore the analysis ↗](https://github.com/Pranav-Teja-Aluvala/gradient-data-analytics-hackathon-2026)**
 
-<img src="assets/certificates.svg" width="100%" alt="Always a work in progress — certificates and learning.">
+<br>
 
-Machine learning, skill assessments, hackathons, and simulations. The full collection lives on its own page to keep this one readable.
+<img src="assets/certificates.svg" width="100%" alt="Still a work in progress — machine learning, hackathons, assessments and simulations.">
 
-[Browse my certificates →](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)
+The full certificate collection has its own page. Otherwise, this README starts looking like a terms-and-conditions document.
 
-## Human.exe · Still in beta
+**[Browse the collection ↗](https://pranav-teja-aluvala.github.io/Pranav-Teja-Aluvala/certs.html)**
 
-`listening to music`　`debugging at 2 AM`　`git commit… eventually`
+<br>
 
-- **Background process:** Music. Almost always.
-- **Current refactor:** Learning to explain why the code works.
-- **Main quest:** Get an internship.
-- **Side quest:** Get a life. Pending.
+<img src="assets/human.svg" width="100%" alt="Human.exe, still in beta. Music on. Curiosity running. Sleep pending. 2 AM ideas, learning why, and remembering Git commits.">
+
+**Main quest:** Get an internship. **Side quest:** Get a life. Pending.
 
 I built the certificate page with help from my agent. I provided the instructions and complained when something broke. Project management, apparently.
 
-<img src="assets/internship-card.svg" width="100%" alt="Open for AI/ML and software development internships — let’s build beyond localhost.">
+<br>
 
-Have something interesting to build? [Email me](mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity) or [connect on LinkedIn](https://www.linkedin.com/in/aluvala-pranav-teja).
+<img src="assets/internship-card.svg" width="100%" alt="Open to AI/ML and software development internships. Good things start with a conversation.">
+
+**[Let’s talk ↗](mailto:pranavteja.aluvala@gmail.com?subject=Internship%20Opportunity)** · [Connect on LinkedIn ↗](https://www.linkedin.com/in/aluvala-pranav-teja)
