@@ -56,7 +56,7 @@
   <img src="assets/project-chromaquant.svg" width="100%" alt="ChromaQuant. Learn a color palette with K-means, compare it with uniform RGB, and download an indexed PNG. On the 16-color demo, K-means achieved 35.85 dB PSNR.">
 </picture>
 
-[Explore ChromaQuant](https://github.com/Pranav-Teja-Aluvala/ChromaQuant) · [Open the palette studio](https://pranav-teja-aluvala.github.io/ChromaQuant/)
+<p><a href="https://github.com/Pranav-Teja-Aluvala/ChromaQuant"><img src="assets/link-code.svg" width="215" alt="Explore ChromaQuant code"></a> <a href="https://pranav-teja-aluvala.github.io/ChromaQuant/"><img src="assets/link-studio.svg" width="215" alt="Open the palette studio"></a></p>
 
 <br>
 
