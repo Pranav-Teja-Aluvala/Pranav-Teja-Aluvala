@@ -733,14 +733,6 @@ body:has(dialog[open]) {
 .hero h1 em {
   display: block;
 }
-.folio {
-  position: absolute;
-  right: 1%;
-  top: 15%;
-  width: 25%;
-  color: #92523a;
-  stroke-width: 0.8;
-}
 .index {
   border-top: 2px solid var(--ink);
   padding-top: 16px;
@@ -792,10 +784,6 @@ body:has(dialog[open]) {
   color: var(--accent);
 }
 @media (max-width: 700px) {
-  .folio {
-    width: 22%;
-    top: 20%;
-  }
   .hero {
     padding-right: 19%;
   }
@@ -826,24 +814,5 @@ body:has(dialog[open]) {
 :root {
   --serif: "Spectral", Georgia, serif;
 }
-/* A mounted print of the first credential in the archive. */
-.archive-proof {
-  position: absolute;
-  width: min(28%, 245px);
-  right: 2%;
-  top: 50%;
-  padding: 7px;
-  background: #fffdf6;
-  border: 1px solid #b8b4a8;
-  box-shadow: 3px 5px 0 #ddd7c8, 5px 7px 0 #b5b1a6;
-  transform: translateY(-50%) rotate(4deg);
-}
-.archive-proof img { width: 100%; display: block; }
-@media (prefers-reduced-motion: no-preference) {
-  .archive-proof { animation: mount-print .8s cubic-bezier(.2,.75,.3,1) both; }
-  @keyframes mount-print { from { opacity: 0; transform: translateY(-38%) rotate(8deg); } }
-}
-@media (max-width: 650px) {
-  .hero { padding-right: 0; }
-  .archive-proof { position: relative; float: right; top: auto; width: 23%; margin: 12px 6px 8px 12px; transform: rotate(4deg); animation: none; }
-}
+
+.hero { padding-right: 0; }
