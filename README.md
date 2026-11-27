@@ -52,9 +52,11 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/project-tickets-mobile.svg">
-  <img src="assets/project-tickets.svg" width="100%" alt="Support Ticket Intelligence. A local support inbox that classifies English banking questions into 77 intents. A reviewer accepts or corrects each recommendation. The model suggests; the human decides. 90.20% held-out test accuracy  Python · scikit-learn · TF-IDF · Logistic regression. Result recorded on a processed BANKING77 split. Single-user local demo; private repository.">
+  <source media="(max-width: 600px)" srcset="assets/project-chromaquant-mobile.svg">
+  <img src="assets/project-chromaquant.svg" width="100%" alt="ChromaQuant. Learn a color palette with K-means, compare it with uniform RGB, and download an indexed PNG. On the 16-color demo, K-means achieved 35.85 dB PSNR.">
 </picture>
+
+[Explore ChromaQuant](https://github.com/Pranav-Teja-Aluvala/ChromaQuant) · [Open the palette studio](https://pranav-teja-aluvala.github.io/ChromaQuant/)
 
 <br>
 
