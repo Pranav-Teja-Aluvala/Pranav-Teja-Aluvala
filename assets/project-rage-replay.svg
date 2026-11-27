@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="374" viewBox="0 0 960 374" role="img"><title>Rage Replay — ghost racing arcade</title>
+ <style>@media(prefers-reduced-motion:no-preference){.runner{animation:vault 2.8s ease-in-out infinite}.echo{animation:vault 2.8s .16s ease-in-out infinite}@keyframes vault{0%,36%,83%,100%{transform:translateY(0)}58%{transform:translateY(-48px)}}}</style>
+ <rect width="100%" height="100%" rx="12" fill="#241d30"/><path d="M0 55H960" stroke="#796078"/><text x="28" y="35" fill="#d4ff88" font-family="monospace" font-size="15">02 / ONE-BUTTON ARCADE</text>
+ <circle cx="827" cy="175" r="50" fill="#ff9972"/><path d="M0 252L90 218 156 244 260 203 345 244 860 201 960 236V277H0Z" fill="#744b65"/>
+ <text x="24" y="132" fill="#fff3dd" font-size="82" font-weight="900" font-style="italic" font-family="Arial,sans-serif">RAGE REPLAY</text>
+ <path d="M0 272H960" stroke="#ffab81" stroke-width="4"/><path d="M845 271l16 -30 17 30z" fill="#ff7956"/>
+ <g transform="translate(780 270)"><g class="echo" fill="#83cfde"><path d="M-27 -24h22v17h-3v6h-5v-6h-6v6h-5v-6h-3z"/></g><g class="runner"><path fill="#d4ff88" d="M0 -31h28v21h-3v9h-7v-8H9v8H3v-9H0z"/><path fill="#2b2438" d="M10 -26h18v9H10z"/><path fill="#fff3dd" d="M21 -24h5v5h-5z"/></g></g>
+ <text x="28" y="315" font-family="Arial,sans-serif" font-size="26" fill="#fff3dd">Every crash leaves a ghost.</text>
+ <text x="28" y="347" font-family="Arial,sans-serif" font-size="20" fill="#d3bfd3">Race your past runs. Send a friend your best.</text></svg>
