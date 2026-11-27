@@ -812,3 +812,17 @@ body:has(dialog[open]) {
     scroll-behavior: auto !important;
   }
 }
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/Spectral-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/Spectral-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+:root {
+  --serif: "Spectral", Georgia, serif;
+}
